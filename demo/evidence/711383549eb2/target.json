@@ -1,0 +1,1065 @@
+{
+  "target": "http://127.0.0.1:50986/",
+  "target_host": "127.0.0.1",
+  "target_id": "711383549eb2",
+  "time": "2026-10-25T08:54:23+00:00",
+  "availability": "HTTP_RESPONDING",
+  "http_statuses": [
+    200,
+    403,
+    404
+  ],
+  "php": "EXPLICIT_PHP_REPORT",
+  "versions": [
+    {
+      "version": "8.3.35",
+      "assessment": "REPORTED_VERSION_BEFORE_FIX_BACKPORT_UNKNOWN"
+    }
+  ],
+  "action": "PHP_REVIEW_REQUIRED",
+  "cve_verdict": "NOT_EXPLOIT_TESTED_VENDOR_PATCH_STATUS_UNVERIFIED",
+  "scan_state": "COMPLETED_WITHIN_CONFIGURED_LIMITS",
+  "coverage": "LIMITED",
+  "requests": 15,
+  "pages": 9,
+  "elapsed_seconds": 0.3,
+  "headless": "DISABLED",
+  "providers": {},
+  "dns": [
+    {
+      "host": "127.0.0.1",
+      "addresses": [
+        "127.0.0.1"
+      ],
+      "cnames": [],
+      "errors": [],
+      "backend": "local-test"
+    }
+  ],
+  "bindings": [
+    {
+      "url": "http://127.0.0.1:50986/",
+      "connect_ip": "127.0.0.1",
+      "route": "DIRECT_IP"
+    }
+  ],
+  "candidate_names": [
+    {
+      "name": "app.test",
+      "sources": [
+        "PTR"
+      ],
+      "related_ips": [
+        "127.0.0.1"
+      ],
+      "addresses": [],
+      "state": "OUT_OF_SCOPE_STRICT_HOST_POLICY"
+    },
+    {
+      "name": "outside.invalid",
+      "sources": [
+        "Initial page link",
+        "Crawl link (not yet validated)"
+      ],
+      "related_ips": [],
+      "addresses": [],
+      "state": "OUT_OF_SCOPE_STRICT_HOST_POLICY"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "COMPATIBLE_WEB_SERVER",
+      "strength": "weak",
+      "detail": "PHP-capable web server reported; PHP is not established: Apache/2.4.62",
+      "version": "",
+      "url": "http://127.0.0.1:50986/",
+      "connect_ip": "127.0.0.1",
+      "request_id": "711383549eb2-0001"
+    },
+    {
+      "kind": "PHP_ROUTE_REFERENCE",
+      "strength": "indicator",
+      "detail": "Unverified same-host PHP-like URL in a: http://127.0.0.1:50986/area/index.php",
+      "version": "",
+      "url": "http://127.0.0.1:50986/",
+      "connect_ip": "127.0.0.1",
+      "request_id": "711383549eb2-0001"
+    },
+    {
+      "kind": "PHP_ROUTE_REFERENCE",
+      "strength": "indicator",
+      "detail": "Unverified same-host PHP-like URL in a: http://127.0.0.1:50986/restricted.php",
+      "version": "",
+      "url": "http://127.0.0.1:50986/",
+      "connect_ip": "127.0.0.1",
+      "request_id": "711383549eb2-0001"
+    },
+    {
+      "kind": "PHP_ROUTE_REFERENCE",
+      "strength": "indicator",
+      "detail": "Unverified same-host PHP-like URL in a: http://127.0.0.1:50986/logout.php",
+      "version": "",
+      "url": "http://127.0.0.1:50986/",
+      "connect_ip": "127.0.0.1",
+      "request_id": "711383549eb2-0001"
+    },
+    {
+      "kind": "PHP_ROUTE_REFERENCE",
+      "strength": "indicator",
+      "detail": "Unverified same-host PHP-like URL in form:POST: http://127.0.0.1:50986/submit.php",
+      "version": "",
+      "url": "http://127.0.0.1:50986/",
+      "connect_ip": "127.0.0.1",
+      "request_id": "711383549eb2-0001"
+    },
+    {
+      "kind": "COMPATIBLE_WEB_SERVER",
+      "strength": "weak",
+      "detail": "PHP-capable web server reported; PHP is not established: Apache/2.4.62",
+      "version": "",
+      "url": "http://127.0.0.1:50986/area/index.php",
+      "connect_ip": "127.0.0.1",
+      "request_id": "711383549eb2-0002"
+    },
+    {
+      "kind": "COMPATIBLE_WEB_SERVER",
+      "strength": "weak",
+      "detail": "PHP-capable web server reported; PHP is not established: Apache/2.4.62",
+      "version": "",
+      "url": "http://127.0.0.1:50986/area/surface-check-0ab145a47451",
+      "connect_ip": "127.0.0.1",
+      "request_id": "711383549eb2-0003"
+    },
+    {
+      "kind": "COMPATIBLE_WEB_SERVER",
+      "strength": "weak",
+      "detail": "PHP-capable web server reported; PHP is not established: Apache/2.4.62",
+      "version": "",
+      "url": "http://127.0.0.1:50986/area/surface-check-0ab145a47451.php",
+      "connect_ip": "127.0.0.1",
+      "request_id": "711383549eb2-0004"
+    },
+    {
+      "kind": "DISTINCT_PHP_ROUTE",
+      "strength": "strong",
+      "detail": "Terminal successful PHP-like response differs from resolved same-directory controls; physical file/execution not proven",
+      "version": "",
+      "url": "http://127.0.0.1:50986/area/index.php",
+      "connect_ip": "127.0.0.1",
+      "request_id": "711383549eb2-0002"
+    },
+    {
+      "kind": "COMPATIBLE_WEB_SERVER",
+      "strength": "weak",
+      "detail": "PHP-capable web server reported; PHP is not established: Apache/2.4.62",
+      "version": "",
+      "url": "http://127.0.0.1:50986/restricted.php",
+      "connect_ip": "127.0.0.1",
+      "request_id": "711383549eb2-0005"
+    },
+    {
+      "kind": "COMPATIBLE_WEB_SERVER",
+      "strength": "weak",
+      "detail": "PHP-capable web server reported; PHP is not established: Apache/2.4.62",
+      "version": "",
+      "url": "http://127.0.0.1:50986/index.php",
+      "connect_ip": "127.0.0.1",
+      "request_id": "711383549eb2-0006"
+    },
+    {
+      "kind": "COMPATIBLE_WEB_SERVER",
+      "strength": "weak",
+      "detail": "PHP-capable web server reported; PHP is not established: Apache/2.4.62",
+      "version": "",
+      "url": "http://127.0.0.1:50986/app.js",
+      "connect_ip": "127.0.0.1",
+      "request_id": "711383549eb2-0007"
+    },
+    {
+      "kind": "PHP_ROUTE_REFERENCE",
+      "strength": "indicator",
+      "detail": "Unverified same-host PHP-like URL in javascript: http://127.0.0.1:50986/api/status.php",
+      "version": "",
+      "url": "http://127.0.0.1:50986/app.js",
+      "connect_ip": "127.0.0.1",
+      "request_id": "711383549eb2-0007"
+    },
+    {
+      "kind": "PHP_HEADER",
+      "strength": "explicit",
+      "detail": "X-Powered-By: PHP/8.3.35",
+      "version": "8.3.35",
+      "url": "http://127.0.0.1:50986/api/status.php",
+      "connect_ip": "127.0.0.1",
+      "request_id": "711383549eb2-0008"
+    },
+    {
+      "kind": "COMPATIBLE_WEB_SERVER",
+      "strength": "weak",
+      "detail": "PHP-capable web server reported; PHP is not established: Apache/2.4.62",
+      "version": "",
+      "url": "http://127.0.0.1:50986/api/status.php",
+      "connect_ip": "127.0.0.1",
+      "request_id": "711383549eb2-0008"
+    },
+    {
+      "kind": "COMPATIBLE_WEB_SERVER",
+      "strength": "weak",
+      "detail": "PHP-capable web server reported; PHP is not established: Apache/2.4.62",
+      "version": "",
+      "url": "http://127.0.0.1:50986/api/surface-check-e4e0d48350c3",
+      "connect_ip": "127.0.0.1",
+      "request_id": "711383549eb2-0009"
+    },
+    {
+      "kind": "COMPATIBLE_WEB_SERVER",
+      "strength": "weak",
+      "detail": "PHP-capable web server reported; PHP is not established: Apache/2.4.62",
+      "version": "",
+      "url": "http://127.0.0.1:50986/api/surface-check-e4e0d48350c3.php",
+      "connect_ip": "127.0.0.1",
+      "request_id": "711383549eb2-0010"
+    },
+    {
+      "kind": "DISTINCT_PHP_ROUTE",
+      "strength": "strong",
+      "detail": "Terminal successful PHP-like response differs from resolved same-directory controls; physical file/execution not proven",
+      "version": "",
+      "url": "http://127.0.0.1:50986/api/status.php",
+      "connect_ip": "127.0.0.1",
+      "request_id": "711383549eb2-0008"
+    },
+    {
+      "kind": "COMPATIBLE_WEB_SERVER",
+      "strength": "weak",
+      "detail": "PHP-capable web server reported; PHP is not established: Apache/2.4.62",
+      "version": "",
+      "url": "http://127.0.0.1:50986/robots.txt",
+      "connect_ip": "127.0.0.1",
+      "request_id": "711383549eb2-0011"
+    },
+    {
+      "kind": "PHP_ROUTE_REFERENCE",
+      "strength": "indicator",
+      "detail": "Unverified same-host PHP-like URL in robots: http://127.0.0.1:50986/hidden/report.php",
+      "version": "",
+      "url": "http://127.0.0.1:50986/robots.txt",
+      "connect_ip": "127.0.0.1",
+      "request_id": "711383549eb2-0011"
+    },
+    {
+      "kind": "COMPATIBLE_WEB_SERVER",
+      "strength": "weak",
+      "detail": "PHP-capable web server reported; PHP is not established: Apache/2.4.62",
+      "version": "",
+      "url": "http://127.0.0.1:50986/hidden/report.php",
+      "connect_ip": "127.0.0.1",
+      "request_id": "711383549eb2-0012"
+    },
+    {
+      "kind": "COMPATIBLE_WEB_SERVER",
+      "strength": "weak",
+      "detail": "PHP-capable web server reported; PHP is not established: Apache/2.4.62",
+      "version": "",
+      "url": "http://127.0.0.1:50986/hidden/surface-check-68bc9594242e",
+      "connect_ip": "127.0.0.1",
+      "request_id": "711383549eb2-0013"
+    },
+    {
+      "kind": "COMPATIBLE_WEB_SERVER",
+      "strength": "weak",
+      "detail": "PHP-capable web server reported; PHP is not established: Apache/2.4.62",
+      "version": "",
+      "url": "http://127.0.0.1:50986/hidden/surface-check-68bc9594242e.php",
+      "connect_ip": "127.0.0.1",
+      "request_id": "711383549eb2-0014"
+    },
+    {
+      "kind": "DISTINCT_PHP_ROUTE",
+      "strength": "strong",
+      "detail": "Terminal successful PHP-like response differs from resolved same-directory controls; physical file/execution not proven",
+      "version": "",
+      "url": "http://127.0.0.1:50986/hidden/report.php",
+      "connect_ip": "127.0.0.1",
+      "request_id": "711383549eb2-0012"
+    },
+    {
+      "kind": "COMPATIBLE_WEB_SERVER",
+      "strength": "weak",
+      "detail": "PHP-capable web server reported; PHP is not established: Apache/2.4.62",
+      "version": "",
+      "url": "http://127.0.0.1:50986/sitemap.xml",
+      "connect_ip": "127.0.0.1",
+      "request_id": "711383549eb2-0015"
+    },
+    {
+      "kind": "PHP_ROUTE_REFERENCE",
+      "strength": "indicator",
+      "detail": "Unverified same-host PHP-like URL in sitemap: http://127.0.0.1:50986/hidden/report.php",
+      "version": "",
+      "url": "http://127.0.0.1:50986/sitemap.xml",
+      "connect_ip": "127.0.0.1",
+      "request_id": "711383549eb2-0015"
+    }
+  ],
+  "php_paths": [
+    {
+      "url": "http://127.0.0.1:50986/area/index.php",
+      "connect_ip": "127.0.0.1",
+      "source": "a",
+      "status": 200,
+      "state": "DISTINCT_PHP_ROUTE",
+      "request_id": "711383549eb2-0002",
+      "controls": [
+        "711383549eb2-0003",
+        "711383549eb2-0004"
+      ],
+      "redirect_chain": []
+    },
+    {
+      "url": "http://127.0.0.1:50986/restricted.php",
+      "connect_ip": "127.0.0.1",
+      "source": "a",
+      "status": 403,
+      "state": "ACCESS_RESTRICTED_EXISTENCE_UNPROVEN",
+      "request_id": "711383549eb2-0005",
+      "controls": [],
+      "redirect_chain": []
+    },
+    {
+      "url": "http://127.0.0.1:50986/index.php",
+      "connect_ip": "127.0.0.1",
+      "source": "directory_index_convention",
+      "status": 404,
+      "state": "NOT_FOUND_OR_MASKED",
+      "request_id": "711383549eb2-0006",
+      "controls": [],
+      "redirect_chain": []
+    },
+    {
+      "url": "http://127.0.0.1:50986/api/status.php",
+      "connect_ip": "127.0.0.1",
+      "source": "javascript",
+      "status": 200,
+      "state": "DISTINCT_PHP_ROUTE",
+      "request_id": "711383549eb2-0008",
+      "controls": [
+        "711383549eb2-0009",
+        "711383549eb2-0010"
+      ],
+      "redirect_chain": []
+    },
+    {
+      "url": "http://127.0.0.1:50986/hidden/report.php",
+      "connect_ip": "127.0.0.1",
+      "source": "robots",
+      "status": 200,
+      "state": "DISTINCT_PHP_ROUTE",
+      "request_id": "711383549eb2-0012",
+      "controls": [
+        "711383549eb2-0013",
+        "711383549eb2-0014"
+      ],
+      "redirect_chain": []
+    }
+  ],
+  "forms": [
+    {
+      "url": "http://127.0.0.1:50986/submit.php",
+      "source": "form:POST",
+      "state": "RECORDED_NOT_SUBMITTED"
+    }
+  ],
+  "notes": [
+    {
+      "kind": "LOCAL_DEMO_FIXTURE",
+      "detail": "php; synthetic local server, no organizational assets contacted"
+    },
+    {
+      "kind": "DNS_SITE_IDENTITY_UNRESOLVED",
+      "detail": "No usable in-scope DNS name was verified for this IP. IP-only responses do not cover named virtual hosts."
+    },
+    {
+      "kind": "ACTION_URL_NOT_FETCHED",
+      "detail": "http://127.0.0.1:50986/logout.php"
+    },
+    {
+      "kind": "HTTP_ACCESS_RESTRICTED",
+      "detail": "http://127.0.0.1:50986/restricted.php"
+    }
+  ],
+  "observations": [
+    {
+      "url": "http://127.0.0.1:50986/",
+      "connect_ip": "127.0.0.1",
+      "method": "GET",
+      "time": "2026-10-25T08:54:22+00:00",
+      "tcp": "OPEN",
+      "tls": "N/A",
+      "tls_verification": "not_applicable",
+      "status": 200,
+      "reason": "OK",
+      "headers": [
+        [
+          "Server",
+          "Apache/2.4.62"
+        ],
+        [
+          "Date",
+          "Sun, 25 Oct 2026 08:54:22 GMT"
+        ],
+        [
+          "Content-Length",
+          "259"
+        ],
+        [
+          "Connection",
+          "close"
+        ],
+        [
+          "Content-Type",
+          "text/html"
+        ]
+      ],
+      "body_truncated": false,
+      "certificate_names": [],
+      "certificate_error": "",
+      "error": "",
+      "stage": "COMPLETE",
+      "local_ip": "127.0.0.1",
+      "bytes_read": 259,
+      "elapsed_ms": 0,
+      "id": "711383549eb2-0001",
+      "purpose": "initial_probe",
+      "evidence_file": "evidence/711383549eb2/711383549eb2-0001.json",
+      "title": "Fixture"
+    },
+    {
+      "url": "http://127.0.0.1:50986/area/index.php",
+      "connect_ip": "127.0.0.1",
+      "method": "GET",
+      "time": "2026-10-25T08:54:22+00:00",
+      "tcp": "OPEN",
+      "tls": "N/A",
+      "tls_verification": "not_applicable",
+      "status": 200,
+      "reason": "OK",
+      "headers": [
+        [
+          "Server",
+          "Apache/2.4.62"
+        ],
+        [
+          "Date",
+          "Sun, 25 Oct 2026 08:54:22 GMT"
+        ],
+        [
+          "Content-Length",
+          "60"
+        ],
+        [
+          "Connection",
+          "close"
+        ],
+        [
+          "Content-Type",
+          "text/html"
+        ]
+      ],
+      "body_truncated": false,
+      "certificate_names": [],
+      "certificate_error": "",
+      "error": "",
+      "stage": "COMPLETE",
+      "local_ip": "127.0.0.1",
+      "bytes_read": 60,
+      "elapsed_ms": 16,
+      "id": "711383549eb2-0002",
+      "purpose": "crawl:a",
+      "evidence_file": "evidence/711383549eb2/711383549eb2-0002.json",
+      "title": "Customer area"
+    },
+    {
+      "url": "http://127.0.0.1:50986/area/surface-check-0ab145a47451",
+      "connect_ip": "127.0.0.1",
+      "method": "GET",
+      "time": "2026-10-25T08:54:22+00:00",
+      "tcp": "OPEN",
+      "tls": "N/A",
+      "tls_verification": "not_applicable",
+      "status": 404,
+      "reason": "Not Found",
+      "headers": [
+        [
+          "Server",
+          "Apache/2.4.62"
+        ],
+        [
+          "Date",
+          "Sun, 25 Oct 2026 08:54:22 GMT"
+        ],
+        [
+          "Content-Length",
+          "65"
+        ],
+        [
+          "Connection",
+          "close"
+        ],
+        [
+          "Content-Type",
+          "text/html"
+        ]
+      ],
+      "body_truncated": false,
+      "certificate_names": [],
+      "certificate_error": "",
+      "error": "",
+      "stage": "COMPLETE",
+      "local_ip": "127.0.0.1",
+      "bytes_read": 65,
+      "elapsed_ms": 0,
+      "id": "711383549eb2-0003",
+      "purpose": "nonexistent_path_control",
+      "evidence_file": "evidence/711383549eb2/711383549eb2-0003.json"
+    },
+    {
+      "url": "http://127.0.0.1:50986/area/surface-check-0ab145a47451.php",
+      "connect_ip": "127.0.0.1",
+      "method": "GET",
+      "time": "2026-10-25T08:54:22+00:00",
+      "tcp": "OPEN",
+      "tls": "N/A",
+      "tls_verification": "not_applicable",
+      "status": 404,
+      "reason": "Not Found",
+      "headers": [
+        [
+          "Server",
+          "Apache/2.4.62"
+        ],
+        [
+          "Date",
+          "Sun, 25 Oct 2026 08:54:22 GMT"
+        ],
+        [
+          "Content-Length",
+          "65"
+        ],
+        [
+          "Connection",
+          "close"
+        ],
+        [
+          "Content-Type",
+          "text/html"
+        ]
+      ],
+      "body_truncated": false,
+      "certificate_names": [],
+      "certificate_error": "",
+      "error": "",
+      "stage": "COMPLETE",
+      "local_ip": "127.0.0.1",
+      "bytes_read": 65,
+      "elapsed_ms": 0,
+      "id": "711383549eb2-0004",
+      "purpose": "nonexistent_path_control",
+      "evidence_file": "evidence/711383549eb2/711383549eb2-0004.json"
+    },
+    {
+      "url": "http://127.0.0.1:50986/restricted.php",
+      "connect_ip": "127.0.0.1",
+      "method": "GET",
+      "time": "2026-10-25T08:54:22+00:00",
+      "tcp": "OPEN",
+      "tls": "N/A",
+      "tls_verification": "not_applicable",
+      "status": 403,
+      "reason": "Forbidden",
+      "headers": [
+        [
+          "Server",
+          "Apache/2.4.62"
+        ],
+        [
+          "Date",
+          "Sun, 25 Oct 2026 08:54:22 GMT"
+        ],
+        [
+          "Content-Length",
+          "28"
+        ],
+        [
+          "Connection",
+          "close"
+        ],
+        [
+          "Content-Type",
+          "text/html"
+        ]
+      ],
+      "body_truncated": false,
+      "certificate_names": [],
+      "certificate_error": "",
+      "error": "",
+      "stage": "COMPLETE",
+      "local_ip": "127.0.0.1",
+      "bytes_read": 28,
+      "elapsed_ms": 0,
+      "id": "711383549eb2-0005",
+      "purpose": "crawl:a",
+      "access_state": "HTTP_ACCESS_RESTRICTED",
+      "evidence_file": "evidence/711383549eb2/711383549eb2-0005.json"
+    },
+    {
+      "url": "http://127.0.0.1:50986/index.php",
+      "connect_ip": "127.0.0.1",
+      "method": "GET",
+      "time": "2026-10-25T08:54:22+00:00",
+      "tcp": "OPEN",
+      "tls": "N/A",
+      "tls_verification": "not_applicable",
+      "status": 404,
+      "reason": "Not Found",
+      "headers": [
+        [
+          "Server",
+          "Apache/2.4.62"
+        ],
+        [
+          "Date",
+          "Sun, 25 Oct 2026 08:54:22 GMT"
+        ],
+        [
+          "Content-Length",
+          "65"
+        ],
+        [
+          "Connection",
+          "close"
+        ],
+        [
+          "Content-Type",
+          "text/html"
+        ]
+      ],
+      "body_truncated": false,
+      "certificate_names": [],
+      "certificate_error": "",
+      "error": "",
+      "stage": "COMPLETE",
+      "local_ip": "127.0.0.1",
+      "bytes_read": 65,
+      "elapsed_ms": 16,
+      "id": "711383549eb2-0006",
+      "purpose": "crawl:directory_index_convention",
+      "evidence_file": "evidence/711383549eb2/711383549eb2-0006.json"
+    },
+    {
+      "url": "http://127.0.0.1:50986/app.js",
+      "connect_ip": "127.0.0.1",
+      "method": "GET",
+      "time": "2026-10-25T08:54:22+00:00",
+      "tcp": "OPEN",
+      "tls": "N/A",
+      "tls_verification": "not_applicable",
+      "status": 200,
+      "reason": "OK",
+      "headers": [
+        [
+          "Server",
+          "Apache/2.4.62"
+        ],
+        [
+          "Date",
+          "Sun, 25 Oct 2026 08:54:22 GMT"
+        ],
+        [
+          "Content-Length",
+          "25"
+        ],
+        [
+          "Connection",
+          "close"
+        ],
+        [
+          "Content-Type",
+          "application/javascript"
+        ]
+      ],
+      "body_truncated": false,
+      "certificate_names": [],
+      "certificate_error": "",
+      "error": "",
+      "stage": "COMPLETE",
+      "local_ip": "127.0.0.1",
+      "bytes_read": 25,
+      "elapsed_ms": 15,
+      "id": "711383549eb2-0007",
+      "purpose": "crawl:script",
+      "evidence_file": "evidence/711383549eb2/711383549eb2-0007.json",
+      "title": ""
+    },
+    {
+      "url": "http://127.0.0.1:50986/api/status.php",
+      "connect_ip": "127.0.0.1",
+      "method": "GET",
+      "time": "2026-10-25T08:54:22+00:00",
+      "tcp": "OPEN",
+      "tls": "N/A",
+      "tls_verification": "not_applicable",
+      "status": 200,
+      "reason": "OK",
+      "headers": [
+        [
+          "Server",
+          "Apache/2.4.62"
+        ],
+        [
+          "Date",
+          "Sun, 25 Oct 2026 08:54:22 GMT"
+        ],
+        [
+          "Content-Length",
+          "15"
+        ],
+        [
+          "Connection",
+          "close"
+        ],
+        [
+          "Content-Type",
+          "application/json"
+        ],
+        [
+          "X-Powered-By",
+          "PHP/8.3.35"
+        ]
+      ],
+      "body_truncated": false,
+      "certificate_names": [],
+      "certificate_error": "",
+      "error": "",
+      "stage": "COMPLETE",
+      "local_ip": "127.0.0.1",
+      "bytes_read": 15,
+      "elapsed_ms": 0,
+      "id": "711383549eb2-0008",
+      "purpose": "crawl:javascript",
+      "evidence_file": "evidence/711383549eb2/711383549eb2-0008.json",
+      "title": ""
+    },
+    {
+      "url": "http://127.0.0.1:50986/api/surface-check-e4e0d48350c3",
+      "connect_ip": "127.0.0.1",
+      "method": "GET",
+      "time": "2026-10-25T08:54:22+00:00",
+      "tcp": "OPEN",
+      "tls": "N/A",
+      "tls_verification": "not_applicable",
+      "status": 404,
+      "reason": "Not Found",
+      "headers": [
+        [
+          "Server",
+          "Apache/2.4.62"
+        ],
+        [
+          "Date",
+          "Sun, 25 Oct 2026 08:54:23 GMT"
+        ],
+        [
+          "Content-Length",
+          "65"
+        ],
+        [
+          "Connection",
+          "close"
+        ],
+        [
+          "Content-Type",
+          "text/html"
+        ]
+      ],
+      "body_truncated": false,
+      "certificate_names": [],
+      "certificate_error": "",
+      "error": "",
+      "stage": "COMPLETE",
+      "local_ip": "127.0.0.1",
+      "bytes_read": 65,
+      "elapsed_ms": 0,
+      "id": "711383549eb2-0009",
+      "purpose": "nonexistent_path_control",
+      "evidence_file": "evidence/711383549eb2/711383549eb2-0009.json"
+    },
+    {
+      "url": "http://127.0.0.1:50986/api/surface-check-e4e0d48350c3.php",
+      "connect_ip": "127.0.0.1",
+      "method": "GET",
+      "time": "2026-10-25T08:54:23+00:00",
+      "tcp": "OPEN",
+      "tls": "N/A",
+      "tls_verification": "not_applicable",
+      "status": 404,
+      "reason": "Not Found",
+      "headers": [
+        [
+          "Server",
+          "Apache/2.4.62"
+        ],
+        [
+          "Date",
+          "Sun, 25 Oct 2026 08:54:23 GMT"
+        ],
+        [
+          "Content-Length",
+          "65"
+        ],
+        [
+          "Connection",
+          "close"
+        ],
+        [
+          "Content-Type",
+          "text/html"
+        ]
+      ],
+      "body_truncated": false,
+      "certificate_names": [],
+      "certificate_error": "",
+      "error": "",
+      "stage": "COMPLETE",
+      "local_ip": "127.0.0.1",
+      "bytes_read": 65,
+      "elapsed_ms": 0,
+      "id": "711383549eb2-0010",
+      "purpose": "nonexistent_path_control",
+      "evidence_file": "evidence/711383549eb2/711383549eb2-0010.json"
+    },
+    {
+      "url": "http://127.0.0.1:50986/robots.txt",
+      "connect_ip": "127.0.0.1",
+      "method": "GET",
+      "time": "2026-10-25T08:54:23+00:00",
+      "tcp": "OPEN",
+      "tls": "N/A",
+      "tls_verification": "not_applicable",
+      "status": 200,
+      "reason": "OK",
+      "headers": [
+        [
+          "Server",
+          "Apache/2.4.62"
+        ],
+        [
+          "Date",
+          "Sun, 25 Oct 2026 08:54:23 GMT"
+        ],
+        [
+          "Content-Length",
+          "42"
+        ],
+        [
+          "Connection",
+          "close"
+        ],
+        [
+          "Content-Type",
+          "text/plain"
+        ]
+      ],
+      "body_truncated": false,
+      "certificate_names": [],
+      "certificate_error": "",
+      "error": "",
+      "stage": "COMPLETE",
+      "local_ip": "127.0.0.1",
+      "bytes_read": 42,
+      "elapsed_ms": 0,
+      "id": "711383549eb2-0011",
+      "purpose": "crawl:standard_discovery",
+      "evidence_file": "evidence/711383549eb2/711383549eb2-0011.json",
+      "title": ""
+    },
+    {
+      "url": "http://127.0.0.1:50986/hidden/report.php",
+      "connect_ip": "127.0.0.1",
+      "method": "GET",
+      "time": "2026-10-25T08:54:23+00:00",
+      "tcp": "OPEN",
+      "tls": "N/A",
+      "tls_verification": "not_applicable",
+      "status": 200,
+      "reason": "OK",
+      "headers": [
+        [
+          "Server",
+          "Apache/2.4.62"
+        ],
+        [
+          "Date",
+          "Sun, 25 Oct 2026 08:54:23 GMT"
+        ],
+        [
+          "Content-Length",
+          "54"
+        ],
+        [
+          "Connection",
+          "close"
+        ],
+        [
+          "Content-Type",
+          "text/html"
+        ]
+      ],
+      "body_truncated": false,
+      "certificate_names": [],
+      "certificate_error": "",
+      "error": "",
+      "stage": "COMPLETE",
+      "local_ip": "127.0.0.1",
+      "bytes_read": 54,
+      "elapsed_ms": 0,
+      "id": "711383549eb2-0012",
+      "purpose": "crawl:robots",
+      "evidence_file": "evidence/711383549eb2/711383549eb2-0012.json",
+      "title": "Report"
+    },
+    {
+      "url": "http://127.0.0.1:50986/hidden/surface-check-68bc9594242e",
+      "connect_ip": "127.0.0.1",
+      "method": "GET",
+      "time": "2026-10-25T08:54:23+00:00",
+      "tcp": "OPEN",
+      "tls": "N/A",
+      "tls_verification": "not_applicable",
+      "status": 404,
+      "reason": "Not Found",
+      "headers": [
+        [
+          "Server",
+          "Apache/2.4.62"
+        ],
+        [
+          "Date",
+          "Sun, 25 Oct 2026 08:54:23 GMT"
+        ],
+        [
+          "Content-Length",
+          "65"
+        ],
+        [
+          "Connection",
+          "close"
+        ],
+        [
+          "Content-Type",
+          "text/html"
+        ]
+      ],
+      "body_truncated": false,
+      "certificate_names": [],
+      "certificate_error": "",
+      "error": "",
+      "stage": "COMPLETE",
+      "local_ip": "127.0.0.1",
+      "bytes_read": 65,
+      "elapsed_ms": 0,
+      "id": "711383549eb2-0013",
+      "purpose": "nonexistent_path_control",
+      "evidence_file": "evidence/711383549eb2/711383549eb2-0013.json"
+    },
+    {
+      "url": "http://127.0.0.1:50986/hidden/surface-check-68bc9594242e.php",
+      "connect_ip": "127.0.0.1",
+      "method": "GET",
+      "time": "2026-10-25T08:54:23+00:00",
+      "tcp": "OPEN",
+      "tls": "N/A",
+      "tls_verification": "not_applicable",
+      "status": 404,
+      "reason": "Not Found",
+      "headers": [
+        [
+          "Server",
+          "Apache/2.4.62"
+        ],
+        [
+          "Date",
+          "Sun, 25 Oct 2026 08:54:23 GMT"
+        ],
+        [
+          "Content-Length",
+          "65"
+        ],
+        [
+          "Connection",
+          "close"
+        ],
+        [
+          "Content-Type",
+          "text/html"
+        ]
+      ],
+      "body_truncated": false,
+      "certificate_names": [],
+      "certificate_error": "",
+      "error": "",
+      "stage": "COMPLETE",
+      "local_ip": "127.0.0.1",
+      "bytes_read": 65,
+      "elapsed_ms": 0,
+      "id": "711383549eb2-0014",
+      "purpose": "nonexistent_path_control",
+      "evidence_file": "evidence/711383549eb2/711383549eb2-0014.json"
+    },
+    {
+      "url": "http://127.0.0.1:50986/sitemap.xml",
+      "connect_ip": "127.0.0.1",
+      "method": "GET",
+      "time": "2026-10-25T08:54:23+00:00",
+      "tcp": "OPEN",
+      "tls": "N/A",
+      "tls_verification": "not_applicable",
+      "status": 200,
+      "reason": "OK",
+      "headers": [
+        [
+          "Server",
+          "Apache/2.4.62"
+        ],
+        [
+          "Date",
+          "Sun, 25 Oct 2026 08:54:23 GMT"
+        ],
+        [
+          "Content-Length",
+          "100"
+        ],
+        [
+          "Connection",
+          "close"
+        ],
+        [
+          "Content-Type",
+          "application/xml"
+        ]
+      ],
+      "body_truncated": false,
+      "certificate_names": [],
+      "certificate_error": "",
+      "error": "",
+      "stage": "COMPLETE",
+      "local_ip": "127.0.0.1",
+      "bytes_read": 100,
+      "elapsed_ms": 0,
+      "id": "711383549eb2-0015",
+      "purpose": "crawl:standard_discovery",
+      "evidence_file": "evidence/711383549eb2/711383549eb2-0015.json",
+      "title": ""
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "url": "http://127.0.0.1:62885/final/robots.txt",
+  "connect_ip": "127.0.0.1",
+  "method": "GET",
+  "time": "2026-10-25T08:54:25+00:00",
+  "tcp": "OPEN",
+  "tls": "N/A",
+  "tls_verification": "not_applicable",
+  "status": 404,
+  "reason": "Not Found",
+  "headers": [
+    [
+      "Server",
+      "Apache/2.4.62"
+    ],
+    [
+      "Date",
+      "Sun, 25 Oct 2026 08:54:25 GMT"
+    ],
+    [
+      "Content-Length",
+      "24"
+    ],
+    [
+      "Connection",
+      "close"
+    ],
+    [
+      "Content-Type",
+      "text/html"
+    ]
+  ],
+  "body": "<title>Not found</title>",
+  "body_truncated": false,
+  "certificate_names": [],
+  "certificate_error": "",
+  "error": "",
+  "stage": "COMPLETE",
+  "local_ip": "127.0.0.1",
+  "bytes_read": 24,
+  "elapsed_ms": 16,
+  "id": "3733941b0d83-0007",
+  "purpose": "crawl:redirect",
+  "evidence_file": "evidence/3733941b0d83/3733941b0d83-0007.json"
+}

@@ -1,0 +1,45 @@
+{
+  "url": "http://127.0.0.1:50986/area/index.php",
+  "connect_ip": "127.0.0.1",
+  "method": "GET",
+  "time": "2026-10-25T08:54:22+00:00",
+  "tcp": "OPEN",
+  "tls": "N/A",
+  "tls_verification": "not_applicable",
+  "status": 200,
+  "reason": "OK",
+  "headers": [
+    [
+      "Server",
+      "Apache/2.4.62"
+    ],
+    [
+      "Date",
+      "Sun, 25 Oct 2026 08:54:22 GMT"
+    ],
+    [
+      "Content-Length",
+      "60"
+    ],
+    [
+      "Connection",
+      "close"
+    ],
+    [
+      "Content-Type",
+      "text/html"
+    ]
+  ],
+  "body": "<title>Customer area</title><p>Distinct application page</p>",
+  "body_truncated": false,
+  "certificate_names": [],
+  "certificate_error": "",
+  "error": "",
+  "stage": "COMPLETE",
+  "local_ip": "127.0.0.1",
+  "bytes_read": 60,
+  "elapsed_ms": 16,
+  "id": "711383549eb2-0002",
+  "purpose": "crawl:a",
+  "evidence_file": "evidence/711383549eb2/711383549eb2-0002.json"
+}

@@ -1,0 +1,77 @@
+﻿target,strength,kind,url,connect_ip,version,detail,request_id
+http://127.0.0.1:50986/,weak,COMPATIBLE_WEB_SERVER,http://127.0.0.1:50986/,127.0.0.1,,PHP-capable web server reported; PHP is not established: Apache/2.4.62,711383549eb2-0001
+http://127.0.0.1:50986/,indicator,PHP_ROUTE_REFERENCE,http://127.0.0.1:50986/,127.0.0.1,,Unverified same-host PHP-like URL in a: http://127.0.0.1:50986/area/index.php,711383549eb2-0001
+http://127.0.0.1:50986/,indicator,PHP_ROUTE_REFERENCE,http://127.0.0.1:50986/,127.0.0.1,,Unverified same-host PHP-like URL in a: http://127.0.0.1:50986/restricted.php,711383549eb2-0001
+http://127.0.0.1:50986/,indicator,PHP_ROUTE_REFERENCE,http://127.0.0.1:50986/,127.0.0.1,,Unverified same-host PHP-like URL in a: http://127.0.0.1:50986/logout.php,711383549eb2-0001
+http://127.0.0.1:50986/,indicator,PHP_ROUTE_REFERENCE,http://127.0.0.1:50986/,127.0.0.1,,Unverified same-host PHP-like URL in form:POST: http://127.0.0.1:50986/submit.php,711383549eb2-0001
+http://127.0.0.1:50986/,weak,COMPATIBLE_WEB_SERVER,http://127.0.0.1:50986/area/index.php,127.0.0.1,,PHP-capable web server reported; PHP is not established: Apache/2.4.62,711383549eb2-0002
+http://127.0.0.1:50986/,weak,COMPATIBLE_WEB_SERVER,http://127.0.0.1:50986/area/surface-check-0ab145a47451,127.0.0.1,,PHP-capable web server reported; PHP is not established: Apache/2.4.62,711383549eb2-0003
+http://127.0.0.1:50986/,weak,COMPATIBLE_WEB_SERVER,http://127.0.0.1:50986/area/surface-check-0ab145a47451.php,127.0.0.1,,PHP-capable web server reported; PHP is not established: Apache/2.4.62,711383549eb2-0004
+http://127.0.0.1:50986/,strong,DISTINCT_PHP_ROUTE,http://127.0.0.1:50986/area/index.php,127.0.0.1,,Terminal successful PHP-like response differs from resolved same-directory controls; physical file/execution not proven,711383549eb2-0002
+http://127.0.0.1:50986/,weak,COMPATIBLE_WEB_SERVER,http://127.0.0.1:50986/restricted.php,127.0.0.1,,PHP-capable web server reported; PHP is not established: Apache/2.4.62,711383549eb2-0005
+http://127.0.0.1:50986/,weak,COMPATIBLE_WEB_SERVER,http://127.0.0.1:50986/index.php,127.0.0.1,,PHP-capable web server reported; PHP is not established: Apache/2.4.62,711383549eb2-0006
+http://127.0.0.1:50986/,weak,COMPATIBLE_WEB_SERVER,http://127.0.0.1:50986/app.js,127.0.0.1,,PHP-capable web server reported; PHP is not established: Apache/2.4.62,711383549eb2-0007
+http://127.0.0.1:50986/,indicator,PHP_ROUTE_REFERENCE,http://127.0.0.1:50986/app.js,127.0.0.1,,Unverified same-host PHP-like URL in javascript: http://127.0.0.1:50986/api/status.php,711383549eb2-0007
+http://127.0.0.1:50986/,explicit,PHP_HEADER,http://127.0.0.1:50986/api/status.php,127.0.0.1,8.3.35,X-Powered-By: PHP/8.3.35,711383549eb2-0008
+http://127.0.0.1:50986/,weak,COMPATIBLE_WEB_SERVER,http://127.0.0.1:50986/api/status.php,127.0.0.1,,PHP-capable web server reported; PHP is not established: Apache/2.4.62,711383549eb2-0008
+http://127.0.0.1:50986/,weak,COMPATIBLE_WEB_SERVER,http://127.0.0.1:50986/api/surface-check-e4e0d48350c3,127.0.0.1,,PHP-capable web server reported; PHP is not established: Apache/2.4.62,711383549eb2-0009
+http://127.0.0.1:50986/,weak,COMPATIBLE_WEB_SERVER,http://127.0.0.1:50986/api/surface-check-e4e0d48350c3.php,127.0.0.1,,PHP-capable web server reported; PHP is not established: Apache/2.4.62,711383549eb2-0010
+http://127.0.0.1:50986/,strong,DISTINCT_PHP_ROUTE,http://127.0.0.1:50986/api/status.php,127.0.0.1,,Terminal successful PHP-like response differs from resolved same-directory controls; physical file/execution not proven,711383549eb2-0008
+http://127.0.0.1:50986/,weak,COMPATIBLE_WEB_SERVER,http://127.0.0.1:50986/robots.txt,127.0.0.1,,PHP-capable web server reported; PHP is not established: Apache/2.4.62,711383549eb2-0011
+http://127.0.0.1:50986/,indicator,PHP_ROUTE_REFERENCE,http://127.0.0.1:50986/robots.txt,127.0.0.1,,Unverified same-host PHP-like URL in robots: http://127.0.0.1:50986/hidden/report.php,711383549eb2-0011
+http://127.0.0.1:50986/,weak,COMPATIBLE_WEB_SERVER,http://127.0.0.1:50986/hidden/report.php,127.0.0.1,,PHP-capable web server reported; PHP is not established: Apache/2.4.62,711383549eb2-0012
+http://127.0.0.1:50986/,weak,COMPATIBLE_WEB_SERVER,http://127.0.0.1:50986/hidden/surface-check-68bc9594242e,127.0.0.1,,PHP-capable web server reported; PHP is not established: Apache/2.4.62,711383549eb2-0013
+http://127.0.0.1:50986/,weak,COMPATIBLE_WEB_SERVER,http://127.0.0.1:50986/hidden/surface-check-68bc9594242e.php,127.0.0.1,,PHP-capable web server reported; PHP is not established: Apache/2.4.62,711383549eb2-0014
+http://127.0.0.1:50986/,strong,DISTINCT_PHP_ROUTE,http://127.0.0.1:50986/hidden/report.php,127.0.0.1,,Terminal successful PHP-like response differs from resolved same-directory controls; physical file/execution not proven,711383549eb2-0012
+http://127.0.0.1:50986/,weak,COMPATIBLE_WEB_SERVER,http://127.0.0.1:50986/sitemap.xml,127.0.0.1,,PHP-capable web server reported; PHP is not established: Apache/2.4.62,711383549eb2-0015
+http://127.0.0.1:50986/,indicator,PHP_ROUTE_REFERENCE,http://127.0.0.1:50986/sitemap.xml,127.0.0.1,,Unverified same-host PHP-like URL in sitemap: http://127.0.0.1:50986/hidden/report.php,711383549eb2-0015
+http://127.0.0.1:51004/,weak,COMPATIBLE_WEB_SERVER,http://127.0.0.1:51004/,127.0.0.1,,PHP-capable web server reported; PHP is not established: Apache/2.4.62,99f54debe837-0001
+http://127.0.0.1:51004/,indicator,PHP_APPLICATION_GENERATOR,http://127.0.0.1:51004/,127.0.0.1,,HTML generator: MediaWiki 1.43.0; a static copy/proxy remains possible,99f54debe837-0001
+http://127.0.0.1:51004/,indicator,PHP_ROUTE_REFERENCE,http://127.0.0.1:51004/,127.0.0.1,,Unverified same-host PHP-like URL in javascript: http://127.0.0.1:51004/relative.php,99f54debe837-0001
+http://127.0.0.1:51004/,indicator,PHP_ROUTE_REFERENCE,http://127.0.0.1:51004/,127.0.0.1,,Unverified same-host PHP-like URL in http-refresh: http://127.0.0.1:51004/refreshed.php,99f54debe837-0001
+http://127.0.0.1:51004/,indicator,PHP_ROUTE_REFERENCE,http://127.0.0.1:51004/,127.0.0.1,,Unverified same-host PHP-like URL in http-content-location: http://127.0.0.1:51004/canonical.php,99f54debe837-0001
+http://127.0.0.1:51004/,explicit,PHP_HEADER,http://127.0.0.1:51004/relative.php,127.0.0.1,8.4.27,X-Powered-By: PHP/8.4.27,99f54debe837-0002
+http://127.0.0.1:51004/,weak,COMPATIBLE_WEB_SERVER,http://127.0.0.1:51004/relative.php,127.0.0.1,,PHP-capable web server reported; PHP is not established: Apache/2.4.62,99f54debe837-0002
+http://127.0.0.1:51004/,weak,COMPATIBLE_WEB_SERVER,http://127.0.0.1:51004/surface-check-199fcb5e59b0,127.0.0.1,,PHP-capable web server reported; PHP is not established: Apache/2.4.62,99f54debe837-0003
+http://127.0.0.1:51004/,weak,COMPATIBLE_WEB_SERVER,http://127.0.0.1:51004/surface-check-199fcb5e59b0.php,127.0.0.1,,PHP-capable web server reported; PHP is not established: Apache/2.4.62,99f54debe837-0004
+http://127.0.0.1:51004/,strong,DISTINCT_PHP_ROUTE,http://127.0.0.1:51004/relative.php,127.0.0.1,,Terminal successful PHP-like response differs from resolved same-directory controls; physical file/execution not proven,99f54debe837-0002
+http://127.0.0.1:51004/,explicit,PHP_HEADER,http://127.0.0.1:51004/refreshed.php,127.0.0.1,8.4.27,X-Powered-By: PHP/8.4.27,99f54debe837-0005
+http://127.0.0.1:51004/,weak,COMPATIBLE_WEB_SERVER,http://127.0.0.1:51004/refreshed.php,127.0.0.1,,PHP-capable web server reported; PHP is not established: Apache/2.4.62,99f54debe837-0005
+http://127.0.0.1:51004/,strong,DISTINCT_PHP_ROUTE,http://127.0.0.1:51004/refreshed.php,127.0.0.1,,Terminal successful PHP-like response differs from resolved same-directory controls; physical file/execution not proven,99f54debe837-0005
+http://127.0.0.1:51004/,explicit,PHP_HEADER,http://127.0.0.1:51004/canonical.php,127.0.0.1,8.4.27,X-Powered-By: PHP/8.4.27,99f54debe837-0006
+http://127.0.0.1:51004/,weak,COMPATIBLE_WEB_SERVER,http://127.0.0.1:51004/canonical.php,127.0.0.1,,PHP-capable web server reported; PHP is not established: Apache/2.4.62,99f54debe837-0006
+http://127.0.0.1:51004/,strong,DISTINCT_PHP_ROUTE,http://127.0.0.1:51004/canonical.php,127.0.0.1,,Terminal successful PHP-like response differs from resolved same-directory controls; physical file/execution not proven,99f54debe837-0006
+http://127.0.0.1:51004/,weak,COMPATIBLE_WEB_SERVER,http://127.0.0.1:51004/index.php,127.0.0.1,,PHP-capable web server reported; PHP is not established: Apache/2.4.62,99f54debe837-0007
+http://127.0.0.1:51004/,weak,COMPATIBLE_WEB_SERVER,http://127.0.0.1:51004/robots.txt,127.0.0.1,,PHP-capable web server reported; PHP is not established: Apache/2.4.62,99f54debe837-0008
+http://127.0.0.1:51004/,indicator,PHP_ROUTE_REFERENCE,http://127.0.0.1:51004/robots.txt,127.0.0.1,,Unverified same-host PHP-like URL in robots: http://127.0.0.1:51004/hidden/report.php,99f54debe837-0008
+http://127.0.0.1:51004/,weak,COMPATIBLE_WEB_SERVER,http://127.0.0.1:51004/hidden/report.php,127.0.0.1,,PHP-capable web server reported; PHP is not established: Apache/2.4.62,99f54debe837-0009
+http://127.0.0.1:51004/,weak,COMPATIBLE_WEB_SERVER,http://127.0.0.1:51004/hidden/surface-check-ac2fc1594e89,127.0.0.1,,PHP-capable web server reported; PHP is not established: Apache/2.4.62,99f54debe837-0010
+http://127.0.0.1:51004/,weak,COMPATIBLE_WEB_SERVER,http://127.0.0.1:51004/hidden/surface-check-ac2fc1594e89.php,127.0.0.1,,PHP-capable web server reported; PHP is not established: Apache/2.4.62,99f54debe837-0011
+http://127.0.0.1:51004/,strong,DISTINCT_PHP_ROUTE,http://127.0.0.1:51004/hidden/report.php,127.0.0.1,,Terminal successful PHP-like response differs from resolved same-directory controls; physical file/execution not proven,99f54debe837-0009
+http://127.0.0.1:51004/,weak,COMPATIBLE_WEB_SERVER,http://127.0.0.1:51004/sitemap.xml,127.0.0.1,,PHP-capable web server reported; PHP is not established: Apache/2.4.62,99f54debe837-0012
+http://127.0.0.1:51004/,indicator,PHP_ROUTE_REFERENCE,http://127.0.0.1:51004/sitemap.xml,127.0.0.1,,Unverified same-host PHP-like URL in sitemap: http://127.0.0.1:51004/hidden/report.php,99f54debe837-0012
+http://127.0.0.1:62877/,weak,COMPATIBLE_WEB_SERVER,http://127.0.0.1:62877/,127.0.0.1,,PHP-capable web server reported; PHP is not established: Apache/2.4.62,086400df7bb2-0001
+http://127.0.0.1:62877/,indicator,PHP_ROUTE_REFERENCE,http://127.0.0.1:62877/,127.0.0.1,,Unverified same-host PHP-like URL in a: http://127.0.0.1:62877/soft.php,086400df7bb2-0001
+http://127.0.0.1:62877/,weak,COMPATIBLE_WEB_SERVER,http://127.0.0.1:62877/soft.php,127.0.0.1,,PHP-capable web server reported; PHP is not established: Apache/2.4.62,086400df7bb2-0002
+http://127.0.0.1:62877/,indicator,PHP_ROUTE_REFERENCE,http://127.0.0.1:62877/soft.php,127.0.0.1,,Unverified same-host PHP-like URL in a: http://127.0.0.1:62877/soft.php,086400df7bb2-0002
+http://127.0.0.1:62877/,weak,COMPATIBLE_WEB_SERVER,http://127.0.0.1:62877/surface-check-2acf5d732172,127.0.0.1,,PHP-capable web server reported; PHP is not established: Apache/2.4.62,086400df7bb2-0003
+http://127.0.0.1:62877/,indicator,PHP_ROUTE_REFERENCE,http://127.0.0.1:62877/surface-check-2acf5d732172,127.0.0.1,,Unverified same-host PHP-like URL in a: http://127.0.0.1:62877/soft.php,086400df7bb2-0003
+http://127.0.0.1:62877/,weak,COMPATIBLE_WEB_SERVER,http://127.0.0.1:62877/surface-check-2acf5d732172.php,127.0.0.1,,PHP-capable web server reported; PHP is not established: Apache/2.4.62,086400df7bb2-0004
+http://127.0.0.1:62877/,indicator,PHP_ROUTE_REFERENCE,http://127.0.0.1:62877/surface-check-2acf5d732172.php,127.0.0.1,,Unverified same-host PHP-like URL in a: http://127.0.0.1:62877/soft.php,086400df7bb2-0004
+http://127.0.0.1:62877/,weak,COMPATIBLE_WEB_SERVER,http://127.0.0.1:62877/index.php,127.0.0.1,,PHP-capable web server reported; PHP is not established: Apache/2.4.62,086400df7bb2-0005
+http://127.0.0.1:62877/,indicator,PHP_ROUTE_REFERENCE,http://127.0.0.1:62877/index.php,127.0.0.1,,Unverified same-host PHP-like URL in a: http://127.0.0.1:62877/soft.php,086400df7bb2-0005
+http://127.0.0.1:62877/,weak,COMPATIBLE_WEB_SERVER,http://127.0.0.1:62877/robots.txt,127.0.0.1,,PHP-capable web server reported; PHP is not established: Apache/2.4.62,086400df7bb2-0006
+http://127.0.0.1:62877/,indicator,PHP_ROUTE_REFERENCE,http://127.0.0.1:62877/robots.txt,127.0.0.1,,Unverified same-host PHP-like URL in a: http://127.0.0.1:62877/soft.php,086400df7bb2-0006
+http://127.0.0.1:62877/,weak,COMPATIBLE_WEB_SERVER,http://127.0.0.1:62877/sitemap.xml,127.0.0.1,,PHP-capable web server reported; PHP is not established: Apache/2.4.62,086400df7bb2-0007
+http://127.0.0.1:62877/,indicator,PHP_ROUTE_REFERENCE,http://127.0.0.1:62877/sitemap.xml,127.0.0.1,,Unverified same-host PHP-like URL in a: http://127.0.0.1:62877/soft.php,086400df7bb2-0007
+http://127.0.0.1:62885/,weak,COMPATIBLE_WEB_SERVER,http://127.0.0.1:62885/,127.0.0.1,,PHP-capable web server reported; PHP is not established: Apache/2.4.62,3733941b0d83-0001
+http://127.0.0.1:62885/,indicator,PHP_ROUTE_REFERENCE,http://127.0.0.1:62885/,127.0.0.1,,Unverified same-host PHP-like URL in a: http://127.0.0.1:62885/index.php,3733941b0d83-0001
+http://127.0.0.1:62885/,weak,COMPATIBLE_WEB_SERVER,http://127.0.0.1:62885/index.php,127.0.0.1,,PHP-capable web server reported; PHP is not established: Apache/2.4.62,3733941b0d83-0002
+http://127.0.0.1:62885/,weak,COMPATIBLE_WEB_SERVER,http://127.0.0.1:62885/canonical/index.php,127.0.0.1,,PHP-capable web server reported; PHP is not established: Apache/2.4.62,3733941b0d83-0003
+http://127.0.0.1:62885/,weak,COMPATIBLE_WEB_SERVER,http://127.0.0.1:62885/final/index.php,127.0.0.1,,PHP-capable web server reported; PHP is not established: Apache/2.4.62,3733941b0d83-0004
+http://127.0.0.1:62885/,weak,COMPATIBLE_WEB_SERVER,http://127.0.0.1:62885/robots.txt,127.0.0.1,,PHP-capable web server reported; PHP is not established: Apache/2.4.62,3733941b0d83-0005
+http://127.0.0.1:62885/,weak,COMPATIBLE_WEB_SERVER,http://127.0.0.1:62885/canonical/robots.txt,127.0.0.1,,PHP-capable web server reported; PHP is not established: Apache/2.4.62,3733941b0d83-0006
+http://127.0.0.1:62885/,weak,COMPATIBLE_WEB_SERVER,http://127.0.0.1:62885/final/robots.txt,127.0.0.1,,PHP-capable web server reported; PHP is not established: Apache/2.4.62,3733941b0d83-0007
+http://127.0.0.1:62885/,weak,COMPATIBLE_WEB_SERVER,http://127.0.0.1:62885/sitemap.xml,127.0.0.1,,PHP-capable web server reported; PHP is not established: Apache/2.4.62,3733941b0d83-0008
+http://127.0.0.1:62885/,weak,COMPATIBLE_WEB_SERVER,http://127.0.0.1:62885/canonical/sitemap.xml,127.0.0.1,,PHP-capable web server reported; PHP is not established: Apache/2.4.62,3733941b0d83-0009
+http://127.0.0.1:62885/,weak,COMPATIBLE_WEB_SERVER,http://127.0.0.1:62885/final/sitemap.xml,127.0.0.1,,PHP-capable web server reported; PHP is not established: Apache/2.4.62,3733941b0d83-0010

@@ -1,0 +1,6 @@
+﻿target,name,sources,addresses,state
+http://127.0.0.1:50986/,app.test,PTR,,OUT_OF_SCOPE_STRICT_HOST_POLICY
+http://127.0.0.1:50986/,outside.invalid,Initial page link; Crawl link (not yet validated),,OUT_OF_SCOPE_STRICT_HOST_POLICY
+http://127.0.0.1:51004/,app.test,PTR,,OUT_OF_SCOPE_STRICT_HOST_POLICY
+http://127.0.0.1:62877/,app.test,PTR,,OUT_OF_SCOPE_STRICT_HOST_POLICY
+http://127.0.0.1:62885/,app.test,PTR,,OUT_OF_SCOPE_STRICT_HOST_POLICY

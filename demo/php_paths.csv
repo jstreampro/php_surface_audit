@@ -1,0 +1,16 @@
+﻿target,url,connect_ip,discovery_source,status,validation,request_id,final_url,final_status,redirect_resolution
+http://127.0.0.1:50986/,http://127.0.0.1:50986/area/index.php,127.0.0.1,a,200,DISTINCT_PHP_ROUTE,711383549eb2-0002,,,
+http://127.0.0.1:50986/,http://127.0.0.1:50986/restricted.php,127.0.0.1,a,403,ACCESS_RESTRICTED_EXISTENCE_UNPROVEN,711383549eb2-0005,,,
+http://127.0.0.1:50986/,http://127.0.0.1:50986/index.php,127.0.0.1,directory_index_convention,404,NOT_FOUND_OR_MASKED,711383549eb2-0006,,,
+http://127.0.0.1:50986/,http://127.0.0.1:50986/api/status.php,127.0.0.1,javascript,200,DISTINCT_PHP_ROUTE,711383549eb2-0008,,,
+http://127.0.0.1:50986/,http://127.0.0.1:50986/hidden/report.php,127.0.0.1,robots,200,DISTINCT_PHP_ROUTE,711383549eb2-0012,,,
+http://127.0.0.1:51004/,http://127.0.0.1:51004/relative.php,127.0.0.1,javascript,200,DISTINCT_PHP_ROUTE,99f54debe837-0002,,,
+http://127.0.0.1:51004/,http://127.0.0.1:51004/refreshed.php,127.0.0.1,http-refresh,200,DISTINCT_PHP_ROUTE,99f54debe837-0005,,,
+http://127.0.0.1:51004/,http://127.0.0.1:51004/canonical.php,127.0.0.1,http-content-location,200,DISTINCT_PHP_ROUTE,99f54debe837-0006,,,
+http://127.0.0.1:51004/,http://127.0.0.1:51004/index.php,127.0.0.1,directory_index_convention,404,NOT_FOUND_OR_MASKED,99f54debe837-0007,,,
+http://127.0.0.1:51004/,http://127.0.0.1:51004/hidden/report.php,127.0.0.1,robots,200,DISTINCT_PHP_ROUTE,99f54debe837-0009,,,
+http://127.0.0.1:62877/,http://127.0.0.1:62877/soft.php,127.0.0.1,a,200,GENERIC_RESPONSE_EXISTENCE_UNPROVEN,086400df7bb2-0002,,,
+http://127.0.0.1:62877/,http://127.0.0.1:62877/index.php,127.0.0.1,directory_index_convention,200,GENERIC_RESPONSE_EXISTENCE_UNPROVEN,086400df7bb2-0005,,,
+http://127.0.0.1:62885/,http://127.0.0.1:62885/index.php,127.0.0.1,a,301,REDIRECT_TO_NOT_FOUND_OR_MASKED,3733941b0d83-0002,http://127.0.0.1:62885/final/index.php,404,FINAL_RESPONSE
+http://127.0.0.1:62885/,http://127.0.0.1:62885/canonical/index.php,127.0.0.1,redirect,301,REDIRECT_TO_NOT_FOUND_OR_MASKED,3733941b0d83-0003,http://127.0.0.1:62885/final/index.php,404,FINAL_RESPONSE
+http://127.0.0.1:62885/,http://127.0.0.1:62885/final/index.php,127.0.0.1,redirect,404,NOT_FOUND_OR_MASKED,3733941b0d83-0004,,,

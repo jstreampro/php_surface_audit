@@ -1,0 +1,45 @@
+{
+  "url": "http://127.0.0.1:51004/index.php",
+  "connect_ip": "127.0.0.1",
+  "method": "GET",
+  "time": "2026-10-25T08:54:23+00:00",
+  "tcp": "OPEN",
+  "tls": "N/A",
+  "tls_verification": "not_applicable",
+  "status": 404,
+  "reason": "Not Found",
+  "headers": [
+    [
+      "Server",
+      "Apache/2.4.62"
+    ],
+    [
+      "Date",
+      "Sun, 25 Oct 2026 08:54:23 GMT"
+    ],
+    [
+      "Content-Length",
+      "65"
+    ],
+    [
+      "Connection",
+      "close"
+    ],
+    [
+      "Content-Type",
+      "text/html"
+    ]
+  ],
+  "body": "<title>Not found</title><p>The requested page does not exist.</p>",
+  "body_truncated": false,
+  "certificate_names": [],
+  "certificate_error": "",
+  "error": "",
+  "stage": "COMPLETE",
+  "local_ip": "127.0.0.1",
+  "bytes_read": 65,
+  "elapsed_ms": 15,
+  "id": "99f54debe837-0007",
+  "purpose": "crawl:directory_index_convention",
+  "evidence_file": "evidence/99f54debe837/99f54debe837-0007.json"
+}

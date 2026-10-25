@@ -1,0 +1,45 @@
+{
+  "url": "http://127.0.0.1:51004/sitemap.xml",
+  "connect_ip": "127.0.0.1",
+  "method": "GET",
+  "time": "2026-10-25T08:54:23+00:00",
+  "tcp": "OPEN",
+  "tls": "N/A",
+  "tls_verification": "not_applicable",
+  "status": 200,
+  "reason": "OK",
+  "headers": [
+    [
+      "Server",
+      "Apache/2.4.62"
+    ],
+    [
+      "Date",
+      "Sun, 25 Oct 2026 08:54:23 GMT"
+    ],
+    [
+      "Content-Length",
+      "100"
+    ],
+    [
+      "Connection",
+      "close"
+    ],
+    [
+      "Content-Type",
+      "application/xml"
+    ]
+  ],
+  "body": "<?xml version=\"1.0\"?><urlset><url><loc>http://127.0.0.1:51004/hidden/report.php</loc></url></urlset>",
+  "body_truncated": false,
+  "certificate_names": [],
+  "certificate_error": "",
+  "error": "",
+  "stage": "COMPLETE",
+  "local_ip": "127.0.0.1",
+  "bytes_read": 100,
+  "elapsed_ms": 0,
+  "id": "99f54debe837-0012",
+  "purpose": "crawl:standard_discovery",
+  "evidence_file": "evidence/99f54debe837/99f54debe837-0012.json"
+}

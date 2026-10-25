@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-25",
+  "scanner": "1.1.0",
+  "python": "3.12.10",
+  "local_regression_tests": 35,
+  "status": "passed",
+  "organizational_targets_scanned": false,
+  "live_optional_providers_tested": false,
+  "live_playwright_browser_tested": false,
+  "redirect_regressions": "Canonical 301->301->404, resolved generic controls, valid terminal route, loop, out-of-scope, pinned HTTPS IP, blocked controls, offline repair and classification",
+  "offline_repair": "Original bytes unchanged; zero network calls; independent PHP evidence retained",
+  "additional_detection": "Application headers, order-independent HTML generators, specific cookie names, inline/relative JavaScript and HTTP discovery headers; app versions are not PHP versions",
+  "bulk_execution": "Bounded pending queue, batched report updates, immediate JSONL, interrupted-job retention and unscheduled-target accounting",
+  "strict_scope": "Shared input IP does not admit undeclared DNS names; declared domain suffix remains allowed",
+  "console": "Unicode output paths with forced ASCII stdout complete without UnicodeEncodeError",
+  "local_platform": "Windows; Python 3.12.10; optional TLS certificate fixture passed",
+  "ci_matrix": "Linux and Windows; Python 3.9, 3.12 and 3.14; see GitHub Actions for actual run status"
+}

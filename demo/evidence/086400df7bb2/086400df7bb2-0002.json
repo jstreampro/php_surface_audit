@@ -1,0 +1,45 @@
+{
+  "url": "http://127.0.0.1:62877/soft.php",
+  "connect_ip": "127.0.0.1",
+  "method": "GET",
+  "time": "2026-10-25T08:54:24+00:00",
+  "tcp": "OPEN",
+  "tls": "N/A",
+  "tls_verification": "not_applicable",
+  "status": 200,
+  "reason": "OK",
+  "headers": [
+    [
+      "Server",
+      "Apache/2.4.62"
+    ],
+    [
+      "Date",
+      "Sun, 25 Oct 2026 08:54:24 GMT"
+    ],
+    [
+      "Content-Length",
+      "82"
+    ],
+    [
+      "Connection",
+      "close"
+    ],
+    [
+      "Content-Type",
+      "text/html"
+    ]
+  ],
+  "body": "<title>Welcome</title><a href=\"/soft.php\">Home</a><p>Generic application shell</p>",
+  "body_truncated": false,
+  "certificate_names": [],
+  "certificate_error": "",
+  "error": "",
+  "stage": "COMPLETE",
+  "local_ip": "127.0.0.1",
+  "bytes_read": 82,
+  "elapsed_ms": 0,
+  "id": "086400df7bb2-0002",
+  "purpose": "crawl:a",
+  "evidence_file": "evidence/086400df7bb2/086400df7bb2-0002.json"
+}

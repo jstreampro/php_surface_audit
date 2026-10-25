@@ -1,0 +1,6 @@
+# Documentation addresses only. Replace these with assets you may assess.
+192.0.2.10
+portal.example.org
+https://apps.example.org/customer/
+http://portal.example.org:8080/
+2001:db8::10

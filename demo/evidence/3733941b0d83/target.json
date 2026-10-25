@@ -1,0 +1,714 @@
+{
+  "target": "http://127.0.0.1:62885/",
+  "target_host": "127.0.0.1",
+  "target_id": "3733941b0d83",
+  "time": "2026-10-25T08:54:25+00:00",
+  "availability": "HTTP_RESPONDING",
+  "http_statuses": [
+    200,
+    301,
+    404
+  ],
+  "php": "PHP_INDICATORS",
+  "versions": [],
+  "action": "PHP_REVIEW_REQUIRED",
+  "cve_verdict": "NOT_EXPLOIT_TESTED_VENDOR_PATCH_STATUS_UNVERIFIED",
+  "scan_state": "COMPLETED_WITHIN_CONFIGURED_LIMITS",
+  "coverage": "LIMITED",
+  "requests": 10,
+  "pages": 10,
+  "elapsed_seconds": 0.19,
+  "headless": "DISABLED",
+  "providers": {},
+  "dns": [
+    {
+      "host": "127.0.0.1",
+      "addresses": [
+        "127.0.0.1"
+      ],
+      "cnames": [],
+      "errors": [],
+      "backend": "local-test"
+    }
+  ],
+  "bindings": [
+    {
+      "url": "http://127.0.0.1:62885/",
+      "connect_ip": "127.0.0.1",
+      "route": "DIRECT_IP"
+    }
+  ],
+  "candidate_names": [
+    {
+      "name": "app.test",
+      "sources": [
+        "PTR"
+      ],
+      "related_ips": [
+        "127.0.0.1"
+      ],
+      "addresses": [],
+      "state": "OUT_OF_SCOPE_STRICT_HOST_POLICY"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "COMPATIBLE_WEB_SERVER",
+      "strength": "weak",
+      "detail": "PHP-capable web server reported; PHP is not established: Apache/2.4.62",
+      "version": "",
+      "url": "http://127.0.0.1:62885/",
+      "connect_ip": "127.0.0.1",
+      "request_id": "3733941b0d83-0001"
+    },
+    {
+      "kind": "PHP_ROUTE_REFERENCE",
+      "strength": "indicator",
+      "detail": "Unverified same-host PHP-like URL in a: http://127.0.0.1:62885/index.php",
+      "version": "",
+      "url": "http://127.0.0.1:62885/",
+      "connect_ip": "127.0.0.1",
+      "request_id": "3733941b0d83-0001"
+    },
+    {
+      "kind": "COMPATIBLE_WEB_SERVER",
+      "strength": "weak",
+      "detail": "PHP-capable web server reported; PHP is not established: Apache/2.4.62",
+      "version": "",
+      "url": "http://127.0.0.1:62885/index.php",
+      "connect_ip": "127.0.0.1",
+      "request_id": "3733941b0d83-0002"
+    },
+    {
+      "kind": "COMPATIBLE_WEB_SERVER",
+      "strength": "weak",
+      "detail": "PHP-capable web server reported; PHP is not established: Apache/2.4.62",
+      "version": "",
+      "url": "http://127.0.0.1:62885/canonical/index.php",
+      "connect_ip": "127.0.0.1",
+      "request_id": "3733941b0d83-0003"
+    },
+    {
+      "kind": "COMPATIBLE_WEB_SERVER",
+      "strength": "weak",
+      "detail": "PHP-capable web server reported; PHP is not established: Apache/2.4.62",
+      "version": "",
+      "url": "http://127.0.0.1:62885/final/index.php",
+      "connect_ip": "127.0.0.1",
+      "request_id": "3733941b0d83-0004"
+    },
+    {
+      "kind": "COMPATIBLE_WEB_SERVER",
+      "strength": "weak",
+      "detail": "PHP-capable web server reported; PHP is not established: Apache/2.4.62",
+      "version": "",
+      "url": "http://127.0.0.1:62885/robots.txt",
+      "connect_ip": "127.0.0.1",
+      "request_id": "3733941b0d83-0005"
+    },
+    {
+      "kind": "COMPATIBLE_WEB_SERVER",
+      "strength": "weak",
+      "detail": "PHP-capable web server reported; PHP is not established: Apache/2.4.62",
+      "version": "",
+      "url": "http://127.0.0.1:62885/canonical/robots.txt",
+      "connect_ip": "127.0.0.1",
+      "request_id": "3733941b0d83-0006"
+    },
+    {
+      "kind": "COMPATIBLE_WEB_SERVER",
+      "strength": "weak",
+      "detail": "PHP-capable web server reported; PHP is not established: Apache/2.4.62",
+      "version": "",
+      "url": "http://127.0.0.1:62885/final/robots.txt",
+      "connect_ip": "127.0.0.1",
+      "request_id": "3733941b0d83-0007"
+    },
+    {
+      "kind": "COMPATIBLE_WEB_SERVER",
+      "strength": "weak",
+      "detail": "PHP-capable web server reported; PHP is not established: Apache/2.4.62",
+      "version": "",
+      "url": "http://127.0.0.1:62885/sitemap.xml",
+      "connect_ip": "127.0.0.1",
+      "request_id": "3733941b0d83-0008"
+    },
+    {
+      "kind": "COMPATIBLE_WEB_SERVER",
+      "strength": "weak",
+      "detail": "PHP-capable web server reported; PHP is not established: Apache/2.4.62",
+      "version": "",
+      "url": "http://127.0.0.1:62885/canonical/sitemap.xml",
+      "connect_ip": "127.0.0.1",
+      "request_id": "3733941b0d83-0009"
+    },
+    {
+      "kind": "COMPATIBLE_WEB_SERVER",
+      "strength": "weak",
+      "detail": "PHP-capable web server reported; PHP is not established: Apache/2.4.62",
+      "version": "",
+      "url": "http://127.0.0.1:62885/final/sitemap.xml",
+      "connect_ip": "127.0.0.1",
+      "request_id": "3733941b0d83-0010"
+    }
+  ],
+  "php_paths": [
+    {
+      "url": "http://127.0.0.1:62885/index.php",
+      "connect_ip": "127.0.0.1",
+      "source": "a",
+      "status": 301,
+      "state": "REDIRECT_TO_NOT_FOUND_OR_MASKED",
+      "request_id": "3733941b0d83-0002",
+      "controls": [],
+      "redirect_chain": [
+        {
+          "request_id": "3733941b0d83-0002",
+          "url": "http://127.0.0.1:62885/index.php",
+          "connect_ip": "127.0.0.1",
+          "status": 301,
+          "location": "/canonical/index.php"
+        },
+        {
+          "request_id": "3733941b0d83-0003",
+          "url": "http://127.0.0.1:62885/canonical/index.php",
+          "connect_ip": "127.0.0.1",
+          "status": 301,
+          "location": "/final/index.php"
+        },
+        {
+          "request_id": "3733941b0d83-0004",
+          "url": "http://127.0.0.1:62885/final/index.php",
+          "connect_ip": "127.0.0.1",
+          "status": 404,
+          "location": ""
+        }
+      ],
+      "final_url": "http://127.0.0.1:62885/final/index.php",
+      "final_status": 404,
+      "redirect_resolution": "FINAL_RESPONSE"
+    },
+    {
+      "url": "http://127.0.0.1:62885/canonical/index.php",
+      "connect_ip": "127.0.0.1",
+      "source": "redirect",
+      "status": 301,
+      "state": "REDIRECT_TO_NOT_FOUND_OR_MASKED",
+      "request_id": "3733941b0d83-0003",
+      "controls": [],
+      "redirect_chain": [
+        {
+          "request_id": "3733941b0d83-0003",
+          "url": "http://127.0.0.1:62885/canonical/index.php",
+          "connect_ip": "127.0.0.1",
+          "status": 301,
+          "location": "/final/index.php"
+        },
+        {
+          "request_id": "3733941b0d83-0004",
+          "url": "http://127.0.0.1:62885/final/index.php",
+          "connect_ip": "127.0.0.1",
+          "status": 404,
+          "location": ""
+        }
+      ],
+      "final_url": "http://127.0.0.1:62885/final/index.php",
+      "final_status": 404,
+      "redirect_resolution": "FINAL_RESPONSE"
+    },
+    {
+      "url": "http://127.0.0.1:62885/final/index.php",
+      "connect_ip": "127.0.0.1",
+      "source": "redirect",
+      "status": 404,
+      "state": "NOT_FOUND_OR_MASKED",
+      "request_id": "3733941b0d83-0004",
+      "controls": [],
+      "redirect_chain": []
+    }
+  ],
+  "forms": [],
+  "notes": [
+    {
+      "kind": "LOCAL_DEMO_FIXTURE",
+      "detail": "redirect-404; synthetic local server, no organizational assets contacted"
+    },
+    {
+      "kind": "DNS_SITE_IDENTITY_UNRESOLVED",
+      "detail": "No usable in-scope DNS name was verified for this IP. IP-only responses do not cover named virtual hosts."
+    }
+  ],
+  "observations": [
+    {
+      "url": "http://127.0.0.1:62885/",
+      "connect_ip": "127.0.0.1",
+      "method": "GET",
+      "time": "2026-10-25T08:54:24+00:00",
+      "tcp": "OPEN",
+      "tls": "N/A",
+      "tls_verification": "not_applicable",
+      "status": 200,
+      "reason": "OK",
+      "headers": [
+        [
+          "Server",
+          "Apache/2.4.62"
+        ],
+        [
+          "Date",
+          "Sun, 25 Oct 2026 08:54:24 GMT"
+        ],
+        [
+          "Content-Length",
+          "60"
+        ],
+        [
+          "Connection",
+          "close"
+        ],
+        [
+          "Content-Type",
+          "text/html"
+        ]
+      ],
+      "body_truncated": false,
+      "certificate_names": [],
+      "certificate_error": "",
+      "error": "",
+      "stage": "COMPLETE",
+      "local_ip": "127.0.0.1",
+      "bytes_read": 60,
+      "elapsed_ms": 0,
+      "id": "3733941b0d83-0001",
+      "purpose": "initial_probe",
+      "evidence_file": "evidence/3733941b0d83/3733941b0d83-0001.json",
+      "title": "Redirect fixture"
+    },
+    {
+      "url": "http://127.0.0.1:62885/index.php",
+      "connect_ip": "127.0.0.1",
+      "method": "GET",
+      "time": "2026-10-25T08:54:25+00:00",
+      "tcp": "OPEN",
+      "tls": "N/A",
+      "tls_verification": "not_applicable",
+      "status": 301,
+      "reason": "Moved Permanently",
+      "headers": [
+        [
+          "Server",
+          "Apache/2.4.62"
+        ],
+        [
+          "Date",
+          "Sun, 25 Oct 2026 08:54:25 GMT"
+        ],
+        [
+          "Content-Length",
+          "0"
+        ],
+        [
+          "Connection",
+          "close"
+        ],
+        [
+          "Content-Type",
+          "text/html"
+        ],
+        [
+          "Location",
+          "/canonical/index.php"
+        ]
+      ],
+      "body_truncated": false,
+      "certificate_names": [],
+      "certificate_error": "",
+      "error": "",
+      "stage": "COMPLETE",
+      "local_ip": "127.0.0.1",
+      "bytes_read": 0,
+      "elapsed_ms": 0,
+      "id": "3733941b0d83-0002",
+      "purpose": "crawl:a",
+      "evidence_file": "evidence/3733941b0d83/3733941b0d83-0002.json",
+      "title": ""
+    },
+    {
+      "url": "http://127.0.0.1:62885/canonical/index.php",
+      "connect_ip": "127.0.0.1",
+      "method": "GET",
+      "time": "2026-10-25T08:54:25+00:00",
+      "tcp": "OPEN",
+      "tls": "N/A",
+      "tls_verification": "not_applicable",
+      "status": 301,
+      "reason": "Moved Permanently",
+      "headers": [
+        [
+          "Server",
+          "Apache/2.4.62"
+        ],
+        [
+          "Date",
+          "Sun, 25 Oct 2026 08:54:25 GMT"
+        ],
+        [
+          "Content-Length",
+          "0"
+        ],
+        [
+          "Connection",
+          "close"
+        ],
+        [
+          "Content-Type",
+          "text/html"
+        ],
+        [
+          "Location",
+          "/final/index.php"
+        ]
+      ],
+      "body_truncated": false,
+      "certificate_names": [],
+      "certificate_error": "",
+      "error": "",
+      "stage": "COMPLETE",
+      "local_ip": "127.0.0.1",
+      "bytes_read": 0,
+      "elapsed_ms": 16,
+      "id": "3733941b0d83-0003",
+      "purpose": "php_route_redirect_validation",
+      "evidence_file": "evidence/3733941b0d83/3733941b0d83-0003.json",
+      "title": ""
+    },
+    {
+      "url": "http://127.0.0.1:62885/final/index.php",
+      "connect_ip": "127.0.0.1",
+      "method": "GET",
+      "time": "2026-10-25T08:54:25+00:00",
+      "tcp": "OPEN",
+      "tls": "N/A",
+      "tls_verification": "not_applicable",
+      "status": 404,
+      "reason": "Not Found",
+      "headers": [
+        [
+          "Server",
+          "Apache/2.4.62"
+        ],
+        [
+          "Date",
+          "Sun, 25 Oct 2026 08:54:25 GMT"
+        ],
+        [
+          "Content-Length",
+          "24"
+        ],
+        [
+          "Connection",
+          "close"
+        ],
+        [
+          "Content-Type",
+          "text/html"
+        ]
+      ],
+      "body_truncated": false,
+      "certificate_names": [],
+      "certificate_error": "",
+      "error": "",
+      "stage": "COMPLETE",
+      "local_ip": "127.0.0.1",
+      "bytes_read": 24,
+      "elapsed_ms": 15,
+      "id": "3733941b0d83-0004",
+      "purpose": "php_route_redirect_validation",
+      "evidence_file": "evidence/3733941b0d83/3733941b0d83-0004.json"
+    },
+    {
+      "url": "http://127.0.0.1:62885/robots.txt",
+      "connect_ip": "127.0.0.1",
+      "method": "GET",
+      "time": "2026-10-25T08:54:25+00:00",
+      "tcp": "OPEN",
+      "tls": "N/A",
+      "tls_verification": "not_applicable",
+      "status": 301,
+      "reason": "Moved Permanently",
+      "headers": [
+        [
+          "Server",
+          "Apache/2.4.62"
+        ],
+        [
+          "Date",
+          "Sun, 25 Oct 2026 08:54:25 GMT"
+        ],
+        [
+          "Content-Length",
+          "0"
+        ],
+        [
+          "Connection",
+          "close"
+        ],
+        [
+          "Content-Type",
+          "text/html"
+        ],
+        [
+          "Location",
+          "/canonical/robots.txt"
+        ]
+      ],
+      "body_truncated": false,
+      "certificate_names": [],
+      "certificate_error": "",
+      "error": "",
+      "stage": "COMPLETE",
+      "local_ip": "127.0.0.1",
+      "bytes_read": 0,
+      "elapsed_ms": 0,
+      "id": "3733941b0d83-0005",
+      "purpose": "crawl:standard_discovery",
+      "evidence_file": "evidence/3733941b0d83/3733941b0d83-0005.json",
+      "title": ""
+    },
+    {
+      "url": "http://127.0.0.1:62885/canonical/robots.txt",
+      "connect_ip": "127.0.0.1",
+      "method": "GET",
+      "time": "2026-10-25T08:54:25+00:00",
+      "tcp": "OPEN",
+      "tls": "N/A",
+      "tls_verification": "not_applicable",
+      "status": 301,
+      "reason": "Moved Permanently",
+      "headers": [
+        [
+          "Server",
+          "Apache/2.4.62"
+        ],
+        [
+          "Date",
+          "Sun, 25 Oct 2026 08:54:25 GMT"
+        ],
+        [
+          "Content-Length",
+          "0"
+        ],
+        [
+          "Connection",
+          "close"
+        ],
+        [
+          "Content-Type",
+          "text/html"
+        ],
+        [
+          "Location",
+          "/final/robots.txt"
+        ]
+      ],
+      "body_truncated": false,
+      "certificate_names": [],
+      "certificate_error": "",
+      "error": "",
+      "stage": "COMPLETE",
+      "local_ip": "127.0.0.1",
+      "bytes_read": 0,
+      "elapsed_ms": 0,
+      "id": "3733941b0d83-0006",
+      "purpose": "crawl:redirect",
+      "evidence_file": "evidence/3733941b0d83/3733941b0d83-0006.json",
+      "title": ""
+    },
+    {
+      "url": "http://127.0.0.1:62885/final/robots.txt",
+      "connect_ip": "127.0.0.1",
+      "method": "GET",
+      "time": "2026-10-25T08:54:25+00:00",
+      "tcp": "OPEN",
+      "tls": "N/A",
+      "tls_verification": "not_applicable",
+      "status": 404,
+      "reason": "Not Found",
+      "headers": [
+        [
+          "Server",
+          "Apache/2.4.62"
+        ],
+        [
+          "Date",
+          "Sun, 25 Oct 2026 08:54:25 GMT"
+        ],
+        [
+          "Content-Length",
+          "24"
+        ],
+        [
+          "Connection",
+          "close"
+        ],
+        [
+          "Content-Type",
+          "text/html"
+        ]
+      ],
+      "body_truncated": false,
+      "certificate_names": [],
+      "certificate_error": "",
+      "error": "",
+      "stage": "COMPLETE",
+      "local_ip": "127.0.0.1",
+      "bytes_read": 24,
+      "elapsed_ms": 16,
+      "id": "3733941b0d83-0007",
+      "purpose": "crawl:redirect",
+      "evidence_file": "evidence/3733941b0d83/3733941b0d83-0007.json"
+    },
+    {
+      "url": "http://127.0.0.1:62885/sitemap.xml",
+      "connect_ip": "127.0.0.1",
+      "method": "GET",
+      "time": "2026-10-25T08:54:25+00:00",
+      "tcp": "OPEN",
+      "tls": "N/A",
+      "tls_verification": "not_applicable",
+      "status": 301,
+      "reason": "Moved Permanently",
+      "headers": [
+        [
+          "Server",
+          "Apache/2.4.62"
+        ],
+        [
+          "Date",
+          "Sun, 25 Oct 2026 08:54:25 GMT"
+        ],
+        [
+          "Content-Length",
+          "0"
+        ],
+        [
+          "Connection",
+          "close"
+        ],
+        [
+          "Content-Type",
+          "text/html"
+        ],
+        [
+          "Location",
+          "/canonical/sitemap.xml"
+        ]
+      ],
+      "body_truncated": false,
+      "certificate_names": [],
+      "certificate_error": "",
+      "error": "",
+      "stage": "COMPLETE",
+      "local_ip": "127.0.0.1",
+      "bytes_read": 0,
+      "elapsed_ms": 0,
+      "id": "3733941b0d83-0008",
+      "purpose": "crawl:standard_discovery",
+      "evidence_file": "evidence/3733941b0d83/3733941b0d83-0008.json",
+      "title": ""
+    },
+    {
+      "url": "http://127.0.0.1:62885/canonical/sitemap.xml",
+      "connect_ip": "127.0.0.1",
+      "method": "GET",
+      "time": "2026-10-25T08:54:25+00:00",
+      "tcp": "OPEN",
+      "tls": "N/A",
+      "tls_verification": "not_applicable",
+      "status": 301,
+      "reason": "Moved Permanently",
+      "headers": [
+        [
+          "Server",
+          "Apache/2.4.62"
+        ],
+        [
+          "Date",
+          "Sun, 25 Oct 2026 08:54:25 GMT"
+        ],
+        [
+          "Content-Length",
+          "0"
+        ],
+        [
+          "Connection",
+          "close"
+        ],
+        [
+          "Content-Type",
+          "text/html"
+        ],
+        [
+          "Location",
+          "/final/sitemap.xml"
+        ]
+      ],
+      "body_truncated": false,
+      "certificate_names": [],
+      "certificate_error": "",
+      "error": "",
+      "stage": "COMPLETE",
+      "local_ip": "127.0.0.1",
+      "bytes_read": 0,
+      "elapsed_ms": 0,
+      "id": "3733941b0d83-0009",
+      "purpose": "crawl:redirect",
+      "evidence_file": "evidence/3733941b0d83/3733941b0d83-0009.json",
+      "title": ""
+    },
+    {
+      "url": "http://127.0.0.1:62885/final/sitemap.xml",
+      "connect_ip": "127.0.0.1",
+      "method": "GET",
+      "time": "2026-10-25T08:54:25+00:00",
+      "tcp": "OPEN",
+      "tls": "N/A",
+      "tls_verification": "not_applicable",
+      "status": 404,
+      "reason": "Not Found",
+      "headers": [
+        [
+          "Server",
+          "Apache/2.4.62"
+        ],
+        [
+          "Date",
+          "Sun, 25 Oct 2026 08:54:25 GMT"
+        ],
+        [
+          "Content-Length",
+          "24"
+        ],
+        [
+          "Connection",
+          "close"
+        ],
+        [
+          "Content-Type",
+          "text/html"
+        ]
+      ],
+      "body_truncated": false,
+      "certificate_names": [],
+      "certificate_error": "",
+      "error": "",
+      "stage": "COMPLETE",
+      "local_ip": "127.0.0.1",
+      "bytes_read": 24,
+      "elapsed_ms": 0,
+      "id": "3733941b0d83-0010",
+      "purpose": "crawl:redirect",
+      "evidence_file": "evidence/3733941b0d83/3733941b0d83-0010.json"
+    }
+  ]
+}

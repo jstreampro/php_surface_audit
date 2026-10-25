@@ -1,0 +1,534 @@
+{
+  "target": "http://127.0.0.1:62877/",
+  "target_host": "127.0.0.1",
+  "target_id": "086400df7bb2",
+  "time": "2026-10-25T08:54:24+00:00",
+  "availability": "HTTP_RESPONDING",
+  "http_statuses": [
+    200
+  ],
+  "php": "PHP_INDICATORS",
+  "versions": [],
+  "action": "PHP_REVIEW_REQUIRED",
+  "cve_verdict": "NOT_EXPLOIT_TESTED_VENDOR_PATCH_STATUS_UNVERIFIED",
+  "scan_state": "COMPLETED_WITHIN_CONFIGURED_LIMITS",
+  "coverage": "LIMITED",
+  "requests": 7,
+  "pages": 5,
+  "elapsed_seconds": 0.14,
+  "headless": "DISABLED",
+  "providers": {},
+  "dns": [
+    {
+      "host": "127.0.0.1",
+      "addresses": [
+        "127.0.0.1"
+      ],
+      "cnames": [],
+      "errors": [],
+      "backend": "local-test"
+    }
+  ],
+  "bindings": [
+    {
+      "url": "http://127.0.0.1:62877/",
+      "connect_ip": "127.0.0.1",
+      "route": "DIRECT_IP"
+    }
+  ],
+  "candidate_names": [
+    {
+      "name": "app.test",
+      "sources": [
+        "PTR"
+      ],
+      "related_ips": [
+        "127.0.0.1"
+      ],
+      "addresses": [],
+      "state": "OUT_OF_SCOPE_STRICT_HOST_POLICY"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "COMPATIBLE_WEB_SERVER",
+      "strength": "weak",
+      "detail": "PHP-capable web server reported; PHP is not established: Apache/2.4.62",
+      "version": "",
+      "url": "http://127.0.0.1:62877/",
+      "connect_ip": "127.0.0.1",
+      "request_id": "086400df7bb2-0001"
+    },
+    {
+      "kind": "PHP_ROUTE_REFERENCE",
+      "strength": "indicator",
+      "detail": "Unverified same-host PHP-like URL in a: http://127.0.0.1:62877/soft.php",
+      "version": "",
+      "url": "http://127.0.0.1:62877/",
+      "connect_ip": "127.0.0.1",
+      "request_id": "086400df7bb2-0001"
+    },
+    {
+      "kind": "COMPATIBLE_WEB_SERVER",
+      "strength": "weak",
+      "detail": "PHP-capable web server reported; PHP is not established: Apache/2.4.62",
+      "version": "",
+      "url": "http://127.0.0.1:62877/soft.php",
+      "connect_ip": "127.0.0.1",
+      "request_id": "086400df7bb2-0002"
+    },
+    {
+      "kind": "PHP_ROUTE_REFERENCE",
+      "strength": "indicator",
+      "detail": "Unverified same-host PHP-like URL in a: http://127.0.0.1:62877/soft.php",
+      "version": "",
+      "url": "http://127.0.0.1:62877/soft.php",
+      "connect_ip": "127.0.0.1",
+      "request_id": "086400df7bb2-0002"
+    },
+    {
+      "kind": "COMPATIBLE_WEB_SERVER",
+      "strength": "weak",
+      "detail": "PHP-capable web server reported; PHP is not established: Apache/2.4.62",
+      "version": "",
+      "url": "http://127.0.0.1:62877/surface-check-2acf5d732172",
+      "connect_ip": "127.0.0.1",
+      "request_id": "086400df7bb2-0003"
+    },
+    {
+      "kind": "PHP_ROUTE_REFERENCE",
+      "strength": "indicator",
+      "detail": "Unverified same-host PHP-like URL in a: http://127.0.0.1:62877/soft.php",
+      "version": "",
+      "url": "http://127.0.0.1:62877/surface-check-2acf5d732172",
+      "connect_ip": "127.0.0.1",
+      "request_id": "086400df7bb2-0003"
+    },
+    {
+      "kind": "COMPATIBLE_WEB_SERVER",
+      "strength": "weak",
+      "detail": "PHP-capable web server reported; PHP is not established: Apache/2.4.62",
+      "version": "",
+      "url": "http://127.0.0.1:62877/surface-check-2acf5d732172.php",
+      "connect_ip": "127.0.0.1",
+      "request_id": "086400df7bb2-0004"
+    },
+    {
+      "kind": "PHP_ROUTE_REFERENCE",
+      "strength": "indicator",
+      "detail": "Unverified same-host PHP-like URL in a: http://127.0.0.1:62877/soft.php",
+      "version": "",
+      "url": "http://127.0.0.1:62877/surface-check-2acf5d732172.php",
+      "connect_ip": "127.0.0.1",
+      "request_id": "086400df7bb2-0004"
+    },
+    {
+      "kind": "COMPATIBLE_WEB_SERVER",
+      "strength": "weak",
+      "detail": "PHP-capable web server reported; PHP is not established: Apache/2.4.62",
+      "version": "",
+      "url": "http://127.0.0.1:62877/index.php",
+      "connect_ip": "127.0.0.1",
+      "request_id": "086400df7bb2-0005"
+    },
+    {
+      "kind": "PHP_ROUTE_REFERENCE",
+      "strength": "indicator",
+      "detail": "Unverified same-host PHP-like URL in a: http://127.0.0.1:62877/soft.php",
+      "version": "",
+      "url": "http://127.0.0.1:62877/index.php",
+      "connect_ip": "127.0.0.1",
+      "request_id": "086400df7bb2-0005"
+    },
+    {
+      "kind": "COMPATIBLE_WEB_SERVER",
+      "strength": "weak",
+      "detail": "PHP-capable web server reported; PHP is not established: Apache/2.4.62",
+      "version": "",
+      "url": "http://127.0.0.1:62877/robots.txt",
+      "connect_ip": "127.0.0.1",
+      "request_id": "086400df7bb2-0006"
+    },
+    {
+      "kind": "PHP_ROUTE_REFERENCE",
+      "strength": "indicator",
+      "detail": "Unverified same-host PHP-like URL in a: http://127.0.0.1:62877/soft.php",
+      "version": "",
+      "url": "http://127.0.0.1:62877/robots.txt",
+      "connect_ip": "127.0.0.1",
+      "request_id": "086400df7bb2-0006"
+    },
+    {
+      "kind": "COMPATIBLE_WEB_SERVER",
+      "strength": "weak",
+      "detail": "PHP-capable web server reported; PHP is not established: Apache/2.4.62",
+      "version": "",
+      "url": "http://127.0.0.1:62877/sitemap.xml",
+      "connect_ip": "127.0.0.1",
+      "request_id": "086400df7bb2-0007"
+    },
+    {
+      "kind": "PHP_ROUTE_REFERENCE",
+      "strength": "indicator",
+      "detail": "Unverified same-host PHP-like URL in a: http://127.0.0.1:62877/soft.php",
+      "version": "",
+      "url": "http://127.0.0.1:62877/sitemap.xml",
+      "connect_ip": "127.0.0.1",
+      "request_id": "086400df7bb2-0007"
+    }
+  ],
+  "php_paths": [
+    {
+      "url": "http://127.0.0.1:62877/soft.php",
+      "connect_ip": "127.0.0.1",
+      "source": "a",
+      "status": 200,
+      "state": "GENERIC_RESPONSE_EXISTENCE_UNPROVEN",
+      "request_id": "086400df7bb2-0002",
+      "controls": [
+        "086400df7bb2-0003",
+        "086400df7bb2-0004"
+      ],
+      "redirect_chain": []
+    },
+    {
+      "url": "http://127.0.0.1:62877/index.php",
+      "connect_ip": "127.0.0.1",
+      "source": "directory_index_convention",
+      "status": 200,
+      "state": "GENERIC_RESPONSE_EXISTENCE_UNPROVEN",
+      "request_id": "086400df7bb2-0005",
+      "controls": [
+        "086400df7bb2-0003",
+        "086400df7bb2-0004"
+      ],
+      "redirect_chain": []
+    }
+  ],
+  "forms": [],
+  "notes": [
+    {
+      "kind": "LOCAL_DEMO_FIXTURE",
+      "detail": "soft404; synthetic local server, no organizational assets contacted"
+    },
+    {
+      "kind": "DNS_SITE_IDENTITY_UNRESOLVED",
+      "detail": "No usable in-scope DNS name was verified for this IP. IP-only responses do not cover named virtual hosts."
+    }
+  ],
+  "observations": [
+    {
+      "url": "http://127.0.0.1:62877/",
+      "connect_ip": "127.0.0.1",
+      "method": "GET",
+      "time": "2026-10-25T08:54:24+00:00",
+      "tcp": "OPEN",
+      "tls": "N/A",
+      "tls_verification": "not_applicable",
+      "status": 200,
+      "reason": "OK",
+      "headers": [
+        [
+          "Server",
+          "Apache/2.4.62"
+        ],
+        [
+          "Date",
+          "Sun, 25 Oct 2026 08:54:24 GMT"
+        ],
+        [
+          "Content-Length",
+          "82"
+        ],
+        [
+          "Connection",
+          "close"
+        ],
+        [
+          "Content-Type",
+          "text/html"
+        ]
+      ],
+      "body_truncated": false,
+      "certificate_names": [],
+      "certificate_error": "",
+      "error": "",
+      "stage": "COMPLETE",
+      "local_ip": "127.0.0.1",
+      "bytes_read": 82,
+      "elapsed_ms": 0,
+      "id": "086400df7bb2-0001",
+      "purpose": "initial_probe",
+      "evidence_file": "evidence/086400df7bb2/086400df7bb2-0001.json",
+      "title": "Welcome"
+    },
+    {
+      "url": "http://127.0.0.1:62877/soft.php",
+      "connect_ip": "127.0.0.1",
+      "method": "GET",
+      "time": "2026-10-25T08:54:24+00:00",
+      "tcp": "OPEN",
+      "tls": "N/A",
+      "tls_verification": "not_applicable",
+      "status": 200,
+      "reason": "OK",
+      "headers": [
+        [
+          "Server",
+          "Apache/2.4.62"
+        ],
+        [
+          "Date",
+          "Sun, 25 Oct 2026 08:54:24 GMT"
+        ],
+        [
+          "Content-Length",
+          "82"
+        ],
+        [
+          "Connection",
+          "close"
+        ],
+        [
+          "Content-Type",
+          "text/html"
+        ]
+      ],
+      "body_truncated": false,
+      "certificate_names": [],
+      "certificate_error": "",
+      "error": "",
+      "stage": "COMPLETE",
+      "local_ip": "127.0.0.1",
+      "bytes_read": 82,
+      "elapsed_ms": 0,
+      "id": "086400df7bb2-0002",
+      "purpose": "crawl:a",
+      "evidence_file": "evidence/086400df7bb2/086400df7bb2-0002.json",
+      "title": "Welcome"
+    },
+    {
+      "url": "http://127.0.0.1:62877/surface-check-2acf5d732172",
+      "connect_ip": "127.0.0.1",
+      "method": "GET",
+      "time": "2026-10-25T08:54:24+00:00",
+      "tcp": "OPEN",
+      "tls": "N/A",
+      "tls_verification": "not_applicable",
+      "status": 200,
+      "reason": "OK",
+      "headers": [
+        [
+          "Server",
+          "Apache/2.4.62"
+        ],
+        [
+          "Date",
+          "Sun, 25 Oct 2026 08:54:24 GMT"
+        ],
+        [
+          "Content-Length",
+          "82"
+        ],
+        [
+          "Connection",
+          "close"
+        ],
+        [
+          "Content-Type",
+          "text/html"
+        ]
+      ],
+      "body_truncated": false,
+      "certificate_names": [],
+      "certificate_error": "",
+      "error": "",
+      "stage": "COMPLETE",
+      "local_ip": "127.0.0.1",
+      "bytes_read": 82,
+      "elapsed_ms": 0,
+      "id": "086400df7bb2-0003",
+      "purpose": "nonexistent_path_control",
+      "evidence_file": "evidence/086400df7bb2/086400df7bb2-0003.json"
+    },
+    {
+      "url": "http://127.0.0.1:62877/surface-check-2acf5d732172.php",
+      "connect_ip": "127.0.0.1",
+      "method": "GET",
+      "time": "2026-10-25T08:54:24+00:00",
+      "tcp": "OPEN",
+      "tls": "N/A",
+      "tls_verification": "not_applicable",
+      "status": 200,
+      "reason": "OK",
+      "headers": [
+        [
+          "Server",
+          "Apache/2.4.62"
+        ],
+        [
+          "Date",
+          "Sun, 25 Oct 2026 08:54:24 GMT"
+        ],
+        [
+          "Content-Length",
+          "82"
+        ],
+        [
+          "Connection",
+          "close"
+        ],
+        [
+          "Content-Type",
+          "text/html"
+        ]
+      ],
+      "body_truncated": false,
+      "certificate_names": [],
+      "certificate_error": "",
+      "error": "",
+      "stage": "COMPLETE",
+      "local_ip": "127.0.0.1",
+      "bytes_read": 82,
+      "elapsed_ms": 0,
+      "id": "086400df7bb2-0004",
+      "purpose": "nonexistent_path_control",
+      "evidence_file": "evidence/086400df7bb2/086400df7bb2-0004.json"
+    },
+    {
+      "url": "http://127.0.0.1:62877/index.php",
+      "connect_ip": "127.0.0.1",
+      "method": "GET",
+      "time": "2026-10-25T08:54:24+00:00",
+      "tcp": "OPEN",
+      "tls": "N/A",
+      "tls_verification": "not_applicable",
+      "status": 200,
+      "reason": "OK",
+      "headers": [
+        [
+          "Server",
+          "Apache/2.4.62"
+        ],
+        [
+          "Date",
+          "Sun, 25 Oct 2026 08:54:24 GMT"
+        ],
+        [
+          "Content-Length",
+          "82"
+        ],
+        [
+          "Connection",
+          "close"
+        ],
+        [
+          "Content-Type",
+          "text/html"
+        ]
+      ],
+      "body_truncated": false,
+      "certificate_names": [],
+      "certificate_error": "",
+      "error": "",
+      "stage": "COMPLETE",
+      "local_ip": "127.0.0.1",
+      "bytes_read": 82,
+      "elapsed_ms": 0,
+      "id": "086400df7bb2-0005",
+      "purpose": "crawl:directory_index_convention",
+      "evidence_file": "evidence/086400df7bb2/086400df7bb2-0005.json",
+      "title": "Welcome"
+    },
+    {
+      "url": "http://127.0.0.1:62877/robots.txt",
+      "connect_ip": "127.0.0.1",
+      "method": "GET",
+      "time": "2026-10-25T08:54:24+00:00",
+      "tcp": "OPEN",
+      "tls": "N/A",
+      "tls_verification": "not_applicable",
+      "status": 200,
+      "reason": "OK",
+      "headers": [
+        [
+          "Server",
+          "Apache/2.4.62"
+        ],
+        [
+          "Date",
+          "Sun, 25 Oct 2026 08:54:24 GMT"
+        ],
+        [
+          "Content-Length",
+          "82"
+        ],
+        [
+          "Connection",
+          "close"
+        ],
+        [
+          "Content-Type",
+          "text/html"
+        ]
+      ],
+      "body_truncated": false,
+      "certificate_names": [],
+      "certificate_error": "",
+      "error": "",
+      "stage": "COMPLETE",
+      "local_ip": "127.0.0.1",
+      "bytes_read": 82,
+      "elapsed_ms": 0,
+      "id": "086400df7bb2-0006",
+      "purpose": "crawl:standard_discovery",
+      "evidence_file": "evidence/086400df7bb2/086400df7bb2-0006.json",
+      "title": "Welcome"
+    },
+    {
+      "url": "http://127.0.0.1:62877/sitemap.xml",
+      "connect_ip": "127.0.0.1",
+      "method": "GET",
+      "time": "2026-10-25T08:54:24+00:00",
+      "tcp": "OPEN",
+      "tls": "N/A",
+      "tls_verification": "not_applicable",
+      "status": 200,
+      "reason": "OK",
+      "headers": [
+        [
+          "Server",
+          "Apache/2.4.62"
+        ],
+        [
+          "Date",
+          "Sun, 25 Oct 2026 08:54:24 GMT"
+        ],
+        [
+          "Content-Length",
+          "82"
+        ],
+        [
+          "Connection",
+          "close"
+        ],
+        [
+          "Content-Type",
+          "text/html"
+        ]
+      ],
+      "body_truncated": false,
+      "certificate_names": [],
+      "certificate_error": "",
+      "error": "",
+      "stage": "COMPLETE",
+      "local_ip": "127.0.0.1",
+      "bytes_read": 82,
+      "elapsed_ms": 0,
+      "id": "086400df7bb2-0007",
+      "purpose": "crawl:standard_discovery",
+      "evidence_file": "evidence/086400df7bb2/086400df7bb2-0007.json",
+      "title": "Welcome"
+    }
+  ]
+}

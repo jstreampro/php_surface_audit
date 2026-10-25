@@ -1,0 +1,2 @@
+# Replace this suffix with the actual approved organization domain.
+example.org

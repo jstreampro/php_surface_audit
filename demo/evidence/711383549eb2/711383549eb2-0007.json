@@ -1,0 +1,45 @@
+{
+  "url": "http://127.0.0.1:50986/app.js",
+  "connect_ip": "127.0.0.1",
+  "method": "GET",
+  "time": "2026-10-25T08:54:22+00:00",
+  "tcp": "OPEN",
+  "tls": "N/A",
+  "tls_verification": "not_applicable",
+  "status": 200,
+  "reason": "OK",
+  "headers": [
+    [
+      "Server",
+      "Apache/2.4.62"
+    ],
+    [
+      "Date",
+      "Sun, 25 Oct 2026 08:54:22 GMT"
+    ],
+    [
+      "Content-Length",
+      "25"
+    ],
+    [
+      "Connection",
+      "close"
+    ],
+    [
+      "Content-Type",
+      "application/javascript"
+    ]
+  ],
+  "body": "fetch(\"/api/status.php\");",
+  "body_truncated": false,
+  "certificate_names": [],
+  "certificate_error": "",
+  "error": "",
+  "stage": "COMPLETE",
+  "local_ip": "127.0.0.1",
+  "bytes_read": 25,
+  "elapsed_ms": 15,
+  "id": "711383549eb2-0007",
+  "purpose": "crawl:script",
+  "evidence_file": "evidence/711383549eb2/711383549eb2-0007.json"
+}

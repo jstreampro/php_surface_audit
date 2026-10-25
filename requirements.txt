@@ -1,0 +1,2 @@
+# Optional enhanced DNS resolution; the core scanner also runs without it.
+dnspython>=2.6,<3

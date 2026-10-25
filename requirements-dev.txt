@@ -1,0 +1,3 @@
+# Test certificate generation only; not required by the scanner.
+-r requirements.txt
+cryptography>=42

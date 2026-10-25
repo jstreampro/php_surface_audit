@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:50986/api/status.php",
+  "connect_ip": "127.0.0.1",
+  "method": "GET",
+  "time": "2026-10-25T08:54:22+00:00",
+  "tcp": "OPEN",
+  "tls": "N/A",
+  "tls_verification": "not_applicable",
+  "status": 200,
+  "reason": "OK",
+  "headers": [
+    [
+      "Server",
+      "Apache/2.4.62"
+    ],
+    [
+      "Date",
+      "Sun, 25 Oct 2026 08:54:22 GMT"
+    ],
+    [
+      "Content-Length",
+      "15"
+    ],
+    [
+      "Connection",
+      "close"
+    ],
+    [
+      "Content-Type",
+      "application/json"
+    ],
+    [
+      "X-Powered-By",
+      "PHP/8.3.35"
+    ]
+  ],
+  "body": "{\"status\":\"ok\"}",
+  "body_truncated": false,
+  "certificate_names": [],
+  "certificate_error": "",
+  "error": "",
+  "stage": "COMPLETE",
+  "local_ip": "127.0.0.1",
+  "bytes_read": 15,
+  "elapsed_ms": 0,
+  "id": "711383549eb2-0008",
+  "purpose": "crawl:javascript",
+  "evidence_file": "evidence/711383549eb2/711383549eb2-0008.json"
+}
